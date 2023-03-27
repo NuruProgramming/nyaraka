@@ -34,7 +34,7 @@ export default defineConfig({
               { text: 'Comments', link: '/en/comments' },
               { text: 'Identifiers', link: '/en/identifiers' },
               { text: 'Operators', link: '/en/operators' },
-              { text: 'Functions', link: '/en/functions' },
+              { text: 'Functions', link: '/en/function' },
             ],
           },
           {
@@ -43,7 +43,7 @@ export default defineConfig({
               { text: 'Bool', link: '/en/bool' },
               { text: 'Null', link: '/en/null' },
               { text: 'Numbers', link: '/en/numbers' },
-              { text: 'String', link: '/en/string' },
+              { text: 'Strings', link: '/en/strings' },
             ],
           },
           {
