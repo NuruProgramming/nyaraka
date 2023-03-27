@@ -1,3 +1,8 @@
+---
+title: Builtins
+titleTemplate: Nuru has several built-in functions that perform specific tasks.
+---
+
 # Built-in Functions in Nuru
 
 Nuru has several built-in functions that perform specific tasks.
@@ -6,7 +11,7 @@ Nuru has several built-in functions that perform specific tasks.
 
 The andika() function is used to print out messages to the console. It can take zero or more arguments, and the arguments will be printed out with a space in between them. Additionally, andika() supports basic formatting such as /n for a new line, /t for a tab space, and \\ for a backslash. Here's an example:
 
-```s
+```go
 andika(1, 2, 3) // Output: "1 2 3"
 ```
 
@@ -14,7 +19,7 @@ andika(1, 2, 3) // Output: "1 2 3"
 
 The jaza() function is used to get input from the user. It can take zero or one argument, which is a string that will be used as a prompt for the user. Here's an example:
 
-```s
+```go
 fanya salamu = unda() {
     fanya jina = jaza("Unaitwa nani? ")
     andika("Mambo vipi", jina)
@@ -29,7 +34,7 @@ In this example, we define a function `salamu()` that prompts the user to enter 
 
 The `aina()` function is used to determine the type of an object. It accepts one argument, and the return value will be a string indicating the type of the object. Here's an example:
 
-```s
+```go
 aina(2) // Output: "NAMBA"
 aina("Nuru") // Output: "NENO"
 ```
@@ -38,7 +43,7 @@ aina("Nuru") // Output: "NENO"
 
 The `fungua()` function is used to open a file. It accepts one argument, which is the path to the file that you want to open. Here's an example:
 
-```s
+```go
 faili = fungua("data.txt")
 ```
 

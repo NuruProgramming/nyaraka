@@ -1,3 +1,8 @@
+---
+title: Strings
+titleTemplate: Strings are a sequence of characters that can represent text in the Nuru programming language
+---
+
 # Strings in Nuru
 
 Strings are a sequence of characters that can represent text in the Nuru programming language. This page covers the basics of strings, their manipulation, and some built-in methods.
@@ -6,7 +11,7 @@ Strings are a sequence of characters that can represent text in the Nuru program
 
 Strings can be enclosed in either single quotes '' or double quotes "":
 
-```s
+```go
 andika("mambo") // mambo
 
 fanya a = 'niaje'
@@ -18,7 +23,7 @@ andika("mambo", a) // mambo niaje
 
 Strings can be concatenated using the + operator:
 
-```s
+```go
 fanya a = "habari" + " " + "yako"
 
 andika(a) // habari yako
@@ -30,9 +35,9 @@ b += " yako"
 // habari yako
 ```
 
-You can also repeat a string n number of times using the * operator:
+You can also repeat a string n number of times using the \* operator:
 
-```s
+```go
 andika("mambo " * 4)
 
 // mambo mambo mambo mambo
@@ -48,13 +53,15 @@ a *= 4
 
 You can loop through a string using the kwa keyword:
 
-```s
+```go
 fanya jina = "avicenna"
 
 kwa i ktk jina {andika(i)}
 ```
+
 Output
-```s 
+
+```go
 a
 v
 i
@@ -62,18 +69,20 @@ c
 e
 n
 n
-a  
+a
 ```
 
 And for key-value pairs:
 
-```s
+```go
 kwa i, v ktk jina {
 	andika(i, "=>", v)
 }
 ```
+
 Output
-```s
+
+```go
 0 => a
 1 => v
 2 => i
@@ -88,7 +97,7 @@ Output
 
 You can compare two strings using the == operator:
 
-```s
+```go
 fanya a = "nuru"
 
 andika(a == "nuru") // kweli
@@ -102,7 +111,7 @@ andika(a == "mambo") // sikweli
 
 You can find the length of a string using the idadi method. It does not accept any parameters.
 
-```s
+```go
 fanya a = "mambo"
 a.idadi() // 5
 ```
@@ -111,7 +120,7 @@ a.idadi() // 5
 
 This method converts a string to uppercase. It does not accept any parameters.
 
-```s
+```go
 fanya a = "nuru"
 a.herufikubwa() // NURU
 ```
@@ -120,7 +129,7 @@ a.herufikubwa() // NURU
 
 This method converts a string to lowercase. It does not accept any parameters.
 
-```s
+```go
 fanya a = "NURU"
 a.herufindogo() // nuru
 ```
@@ -131,7 +140,7 @@ The gawa method splits a string into an array based on a specified delimiter. If
 
 Example without a parameter:
 
-```s
+```go
 fanya a = "nuru mambo habari"
 fanya b = a.gawa()
 andika(b) // ["nuru", "mambo", "habari"]
@@ -139,7 +148,7 @@ andika(b) // ["nuru", "mambo", "habari"]
 
 Example with a parameter:
 
-```s
+```go
 fanya a = "nuru,mambo,habari"
 fanya b = a.gawa(",")
 andika(b) // ["nuru", "mambo", "habari"]

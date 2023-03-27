@@ -1,3 +1,8 @@
+---
+title: Arrays
+titleTemplate: Arrays in Nuru are versatile data structures that can hold multiple items
+---
+
 # Arrays in Nuru
 
 Arrays in Nuru are versatile data structures that can hold multiple items, including different types such as numbers, strings, booleans, functions, and null values. This page covers various aspects of arrays, including how to create, manipulate, and iterate over them using Nuru's built-in keywords and methods.
@@ -6,21 +11,22 @@ Arrays in Nuru are versatile data structures that can hold multiple items, inclu
 
 To create an array, use square brackets [] and separate items with commas:
 
-```s
+```go
 orodha = [1, "pili", kweli]
 ```
+
 ## Accessing and Modifying Array Elements
 
 Arrays in Nuru are zero-indexed. To access an element, use the element's index in square brackets:
 
-```s
+```go
 namba = [10, 20, 30]
 jina = namba[1]  // jina is 20
 ```
 
 You can reassign an element in an array using its index:
 
-```s
+```go
 namba[1] = 25
 ```
 
@@ -28,7 +34,7 @@ namba[1] = 25
 
 To concatenate two or more arrays, use the + operator:
 
-```s
+```go
 a = [1, 2, 3]
 b = [4, 5, 6]
 c = a + b
@@ -39,7 +45,7 @@ c = a + b
 
 Use the `ktk` keyword to check if an item exists in an array:
 
-```s
+```go
 namba = [10, 20, 30]
 andika(20 ktk namba)  // will print kweli
 ```
@@ -58,7 +64,7 @@ kwa thamani ktk namba {
 
 To loop over both index and value pairs, use this syntax:
 
-```s
+```go
 majina = ["Juma", "Asha", "Haruna"]
 
 kwa idx, jina ktk majina {
@@ -74,7 +80,7 @@ Arrays in Nuru have several built-in methods:
 
 idadi() returns the length of an array:
 
-```s
+```go
 a = [1, 2, 3]
 urefu = a.idadi()
 andika(urefu)  // will print 3
@@ -84,7 +90,7 @@ andika(urefu)  // will print 3
 
 sukuma() adds one or more items to the end of an array:
 
-```s
+```go
 a = [1, 2, 3]
 a.sukuma("s", "g")
 andika(a)  // will print [1, 2, 3, "s", "g"]
@@ -94,7 +100,7 @@ andika(a)  // will print [1, 2, 3, "s", "g"]
 
 yamwisho() returns the last item in an array, or tupu if the array is empty:
 
-```s
+```go
 a = [1, 2, 3]
 mwisho = a.yamwisho()
 andika(mwisho)  // will print 3

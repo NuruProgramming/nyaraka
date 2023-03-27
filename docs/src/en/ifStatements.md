@@ -1,3 +1,8 @@
+---
+title: Conditional If Statements
+titleTemplate: Conditional statements in Nuru are used to perform different actions based on different conditions.
+---
+
 # Conditional Statements in Nuru
 
 Conditional statements in Nuru are used to perform different actions based on different conditions. The if/else statement is a fundamental control structure that allows you to execute code based on specific conditions. This page covers the basics of if/else statements in Nuru.
@@ -6,7 +11,7 @@ Conditional statements in Nuru are used to perform different actions based on di
 
 An if statement starts with the kama keyword, followed by a condition in parentheses (). If the condition is true, the code inside the curly braces {} will be executed.
 
-```s
+```go
 kama (2 > 1) {
     andika(kweli) // kweli
 }
@@ -18,7 +23,7 @@ In this example, the condition 2 > 1 is true, so the andika(kweli) statement is 
 
 You can use au kama to test multiple conditions and sivyo to specify a default block of code to be executed when none of the conditions are true.
 
-```s
+```go
 
 fanya a = 10
 

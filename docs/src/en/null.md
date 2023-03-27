@@ -1,19 +1,25 @@
+---
+title: Null
+titleTemplate: The null data type in Nuru represents the absence of a value or the concept of "nothing" or "empty".
+---
+
 # Null (Tupu) in Nuru
 
-The null data type in Nuru represents the absence of a value or the concept of "nothing" or "empty." This page covers the syntax and usage of the null data type in Nuru, including its definition and evaluation.
+The null data type in Nuru represents the absence of a value or the concept of "nothing" or "empty". This page covers the syntax and usage of the null data type in Nuru, including its definition and evaluation.
 
 ## Definition
 
 A null data type is a data type with no value, defined with the tupu keyword:
 
-```s
+```go
 fanya a = tupu
 ```
+
 ## Evaluation
 
 When evaluating a null data type in a conditional expression, it will evaluate to false:
 
-```s
+```go
 kama (a) {
     andika("niko tupu")
 } sivyo {

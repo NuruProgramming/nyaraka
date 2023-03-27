@@ -1,3 +1,8 @@
+---
+title: Bool
+titleTemplate: Boolean objects in Nuru are truthy, meaning that any value is true, except tupu and sikweli.
+---
+
 # Working with Booleans in Nuru
 
 Boolean objects in Nuru are truthy, meaning that any value is true, except tupu and sikweli. They are used to evaluate expressions that return true or false values.
@@ -8,7 +13,7 @@ Boolean objects in Nuru are truthy, meaning that any value is true, except tupu 
 
 In Nuru, you can evaluate simple expressions that return a boolean value:
 
-```s
+```go
 andika(1 > 2) // Output: `sikweli`
 
 andika(1 + 3 < 10) // Output: `kweli`
@@ -18,7 +23,7 @@ andika(1 + 3 < 10) // Output: `kweli`
 
 In Nuru, you can use boolean operators to evaluate complex expressions:
 
-```s
+```go
 a = 5
 b = 10
 c = 15
@@ -43,7 +48,7 @@ Nuru has several boolean operators that you can use to evaluate expressions:
 
 The && operator evaluates to true only if both operands are true. Here's an example:
 
-```s
+```go
 andika(kweli && kweli) // Output: `kweli`
 
 andika(kweli && sikweli) // Output: `sikweli`
@@ -53,7 +58,7 @@ andika(kweli && sikweli) // Output: `sikweli`
 
 The || operator evaluates to true if at least one of the operands is true. Here's an example:
 
-```s
+```go
 andika(kweli || sikweli) // Output: `kweli`
 
 andika(sikweli || sikweli) // Output: `sikweli`
@@ -63,7 +68,7 @@ andika(sikweli || sikweli) // Output: `sikweli`
 
 The ! operator negates the value of the operand. Here's an example:
 
-```s
+```go
 andika(!kweli) // Output: `sikweli`
 
 andika(!sikweli) // Output: `kweli`
@@ -73,7 +78,7 @@ andika(!sikweli) // Output: `kweli`
 
 In Nuru, you can use boolean expressions in loops to control their behavior. Here's an example:
 
-```s
+```go
 namba = [1, 2, 3, 4, 5]
 
 kwa thamani ktk namba {
@@ -92,6 +97,5 @@ kwa thamani ktk namba {
 ```
 
 Here, we create an array namba with the values 1 through 5. We then loop over each value in the array and use the % operator to determine if it is even or odd. The output will be "is even" for even numbers and "is odd" for odd numbers.
-
 
 Boolean objects in Nuru can be used to evaluate expressions that return true or false values. You can use boolean operators to evaluate complex expressions and control the behavior of loops. Understanding how to work with boolean values is an essential skill for any Nuru programmer.

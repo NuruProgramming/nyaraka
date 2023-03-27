@@ -1,3 +1,8 @@
+---
+title: Numbers
+titleTemplate: Integers and floats are the basic numeric data types in Nuru.
+---
+
 # INTEGERS (NAMBA) AND FLOATS (DESIMALI)
 
 Integers and floats are the basic numeric data types in Nuru, used for representing whole numbers and decimal numbers, respectively. This page covers the syntax and usage of integers and floats in Nuru, including precedence, unary increments, shorthand assignments, and negative numbers.
@@ -5,6 +10,7 @@ Integers and floats are the basic numeric data types in Nuru, used for represent
 ## PRECEDENCE
 
 Integers and floats behave as expected in mathematical operations, following the BODMAS rule:
+
 ```go
 2 + 3 * 5 // 17
 
@@ -26,8 +32,9 @@ i++ // 3.4
 
 ## SHORTHAND ASSIGNMENT
 
-Nuru supports shorthand assignments with +=, -=, /=, *=, and %=:
+Nuru supports shorthand assignments with +=, -=, /=, \*=, and %=:
 You
+
 ```go
 fanya i = 2
 
@@ -51,8 +58,10 @@ wakati (i < 0) {
 }
 
 ```
+
 Output:
-```s
+
+```go
 -10
 -9
 -8
@@ -72,5 +81,5 @@ Output:
 6
 7
 8
-9 
+9
 ```

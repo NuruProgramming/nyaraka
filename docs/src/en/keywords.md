@@ -1,3 +1,8 @@
+---
+title: Keywords
+titleTemplate: Keywords in Nuru are reserved words that have special meanings and cannot be used as identifiers.
+---
+
 # KEYWORDS
 
 Keywords in Nuru are reserved words that have special meanings and cannot be used as identifiers for variables, functions, or classes. This page covers the syntax and usage of keywords in Nuru, including reserved keywords and built-in functions.

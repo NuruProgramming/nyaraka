@@ -1,3 +1,8 @@
+---
+title: Functions
+titleTemplate: Functions are a fundamental part of Nuru programming, allowing you to define reusable blocks of code.
+---
+
 # Functions in Nuru
 
 Functions are a fundamental part of Nuru programming, allowing you to define reusable blocks of code. This page covers the syntax and usage of functions in Nuru, including parameters, default parameters, return statements, recursion, and closures.
@@ -6,8 +11,8 @@ Functions are a fundamental part of Nuru programming, allowing you to define reu
 
 A function block starts with the unda keyword, followed by parameters enclosed in parentheses () and the body enclosed in curly braces {}. Functions must be assigned to a variable:
 
-```s
-jum = unda(x, y) {
+```go
+jumla = unda(x, y) {
     rudisha x + y
 }
 
@@ -18,7 +23,7 @@ jum(2, 3) // 5
 
 Functions can have zero or any number of arguments. Arguments can be of any type, even other functions:
 
-```s
+```go
 salamu = unda() {
     andika("Habari yako")
 }
@@ -36,7 +41,7 @@ salamu("asha") // Habari yako asha
 
 Functions can be provided with default parameters:
 
-```s
+```go
 salimu = unda(salamu="Habari") {
     andika(salamu)
 }
@@ -49,7 +54,7 @@ salimu("Mambo") // Mambo
 
 You can return values with the rudisha keyword. The rudisha keyword will terminate the block and return the value:
 
-```s
+```go
 mfano = unda(x) {
     rudisha "nimerudi"
     andika(x)
@@ -62,7 +67,7 @@ mfano("x") // nimerudi
 
 Nuru also supports recursion. Here's an example of a recursive Fibonacci function:
 
-```s
+```go
 
 fib = unda(n) {
     kama (n <= 1) {
@@ -81,7 +86,7 @@ The fib function calculates the nth Fibonacci number by recursively calling itse
 
 Closures are anonymous functions that can capture and store references to variables from their surrounding context. In Nuru, you can create closures using the unda keyword without assigning them to a variable. Here's an example:
 
-```s
+```go
 fanya jum = unda(x) {
     rudisha unda(y) {
         rudisha x + y

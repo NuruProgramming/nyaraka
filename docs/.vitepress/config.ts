@@ -23,7 +23,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en' },
-          { text: 'Docs', link: '/en/comments' },
+          { text: 'Docs', link: '/en/keywords/' },
         ],
 
         sidebar: [
@@ -35,6 +35,7 @@ export default defineConfig({
               { text: 'Identifiers', link: '/en/identifiers' },
               { text: 'Operators', link: '/en/operators' },
               { text: 'Functions', link: '/en/function' },
+              { text: 'Builtins', link: '/en/builtins' },
             ],
           },
           {

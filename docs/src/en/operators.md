@@ -1,4 +1,10 @@
+---
+title: Operators
+titleTemplate: This page covers the syntax and usage of operators in Nuru
+---
+
 # OPERATORS
+
 Operators are the foundation of any programming language, allowing you to perform various operations on variables and values. This page covers the syntax and usage of operators in Nuru, including assignment, arithmetic, comparison, member, and logic operators.
 
 ## ASSIGNMENT
@@ -13,6 +19,7 @@ Assuming `i` and `v` are predefined variables, Nuru supports the following assig
 - `i += v`: which is the equivalent of `i = i + v`
 
 For `strings`, `arrays` and `dictionaries`, the `+=` sign operator is permissible. Example:
+
 ```
 list1 += list2 // this is equivalent to list1 = list1 + list2
 ```
@@ -42,6 +49,7 @@ Nuru supports the following comparison operators:
 ## MEMBER OPERATOR
 
 The member operator in Nuru is `ktk`. It will check if an object exists in another object:
+
 ```go
 fanya majina = ['juma', 'asha', 'haruna']
 

@@ -1,3 +1,8 @@
+---
+title: Dictionaries
+titleTemplate: Dictionaries in Nuru, also known as "kamusi," are powerful and flexible data structures that store key-value pairs.
+---
+
 # Dictionaries in Nuru
 
 Dictionaries in Nuru, also known as "kamusi," are powerful and flexible data structures that store key-value pairs. This page provides a comprehensive overview of dictionaries in Nuru, including how to create, access, modify, and iterate over them.
@@ -6,14 +11,14 @@ Dictionaries in Nuru, also known as "kamusi," are powerful and flexible data str
 
 Dictionaries are enclosed in curly braces {} and consist of keys and values separated by colons. Here's an example of defining a dictionary:
 
-```s
+```go
 
 orodha = {"jina": "Juma", "umri": 25}
 ```
 
 Keys can be strings, integers, floats, or booleans, while values can be any data type, including strings, integers, floats, booleans, null, or functions:
 
-```s
+```go
 k = {
     "jina": "Juma",
     "umri": 25,
@@ -27,7 +32,7 @@ k = {
 
 Access individual elements in a dictionary using their keys:
 
-```s
+```go
 
 andika(k[kweli]) // kweli
 andika(k["salimu"]("Juma")) // habari Juma
@@ -37,7 +42,7 @@ andika(k["salimu"]("Juma")) // habari Juma
 
 Update the value of an element by assigning a new value to its key:
 
-```s
+```go
 k['umri'] = 30
 andika(k['umri']) // 30
 ```
@@ -46,7 +51,7 @@ andika(k['umri']) // 30
 
 Add a new key-value pair to a dictionary by assigning a value to a non-existent key:
 
-```s
+```go
 k["lugha"] = "Kiswahili"
 andika(k["lugha"]) // Kiswahili
 ```
@@ -55,7 +60,7 @@ andika(k["lugha"]) // Kiswahili
 
 Combine two dictionaries using the + operator:
 
-```s
+```go
 matunda = {"a": "apple", "b": "banana"}
 mboga = {"c": "carrot", "d": "daikon"}
 vyakula = matunda + mboga
@@ -66,7 +71,7 @@ andika(vyakula) // {"a": "apple", "b": "banana", "c": "carrot", "d": "daikon"}
 
 Use the ktk keyword to check if a key exists in a dictionary:
 
-```s
+```go
 
 "umri" ktk k // kweli
 "urefu" ktk k // sikweli
@@ -76,15 +81,17 @@ Use the ktk keyword to check if a key exists in a dictionary:
 
 Loop over a dictionary to access its keys and values:
 
-```s
+```go
 
 hobby = {"a": "asili", "b": "baiskeli", "c": "chakula"}
 kwa i, v ktk hobby {
     andika(i, "=>", v)
 }
 ```
+
 Output
-```s
+
+```go
 a => asili
 b => baiskeli
 c => chakula
@@ -92,13 +99,15 @@ c => chakula
 
 Loop over just the values:
 
-```s
+```go
 kwa v ktk hobby {
     andika(v)
 }
 ```
+
 Output
-```s
+
+```go
 asili
 baiskeli
 chakula

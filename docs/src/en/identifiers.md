@@ -1,3 +1,8 @@
+---
+title: Identifiers
+titleTemplate: Identifiers are used to name variables, functions, and other elements in your Nuru code.
+---
+
 # Identifiers in Nuru
 
 Identifiers are used to name variables, functions, and other elements in your Nuru code. This page covers the rules and best practices for creating identifiers in Nuru.
@@ -5,12 +10,13 @@ Identifiers are used to name variables, functions, and other elements in your Nu
 ## Syntax Rules
 
 Identifiers can contain letters, numbers, and underscores. However, there are a few rules you must follow when creating identifiers:
+
 - Identifiers cannot start with a number.
 - Identifiers are case-sensitive. For example, myVar and myvar are considered distinct identifiers.
 
 Here are some examples of valid identifiers:
 
-```s
+```go
 fanya birth_year = 2020
 andika(birth_year) // 2020
 
