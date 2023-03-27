@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /
+      link: /en/keywords
     - theme: alt
       text: Examples
-      link: /
+      link: /en/
 
 features:
   - title: Syntax Rahisi 😎

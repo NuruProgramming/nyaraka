@@ -17,9 +17,58 @@ export default defineConfig({
     en: {
       label: 'English',
       lang: 'en', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/en', // default /fr/ -- shows on navbar translations menu, can be external
+      link: '/en/', // default /fr/ -- shows on navbar translations menu, can be external
 
       // other locale specific properties...
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en' },
+          { text: 'Docs', link: '/en/comments' },
+        ],
+
+        sidebar: [
+          {
+            text: 'Fundamentals',
+            items: [
+              { text: 'Keywords', link: '/en/keywords' },
+              { text: 'Comments', link: '/en/comments' },
+              { text: 'Identifiers', link: '/en/identifiers' },
+              { text: 'Operators', link: '/en/operators' },
+              { text: 'Functions', link: '/en/functions' },
+            ],
+          },
+          {
+            text: 'Data Types',
+            items: [
+              { text: 'Bool', link: '/en/bool' },
+              { text: 'Null', link: '/en/null' },
+              { text: 'Numbers', link: '/en/numbers' },
+              { text: 'String', link: '/en/string' },
+            ],
+          },
+          {
+            text: 'Data Structures',
+            items: [
+              { text: 'Arrays', link: '/en/arrays' },
+              { text: 'Dictionaries', link: '/en/dictionaries' },
+            ],
+          },
+          {
+            text: 'Conditionals',
+            items: [
+              { text: 'If-Statements', link: '/en/ifStatements' },
+              { text: 'Switch', link: '/en/switch' },
+            ],
+          },
+          {
+            text: 'Loops',
+            items: [
+              { text: 'For', link: '/en/for' },
+              { text: 'While', link: '/en/while' },
+            ],
+          },
+        ],
+      },
     },
   },
 
