@@ -19,7 +19,7 @@ In this example, the comment text "This line will be ignored by the Nuru interpr
 
 ## Multi-Line Comments
 
-Multi-line comments are used to provide more detailed explanations or documentation for multiple lines of code. To write a multi-line comment in Nuru, use a forward slash followed by an asterisk ( /_ ) to start the comment, and an asterisk followed by a forward slash ( _/ ) to end the comment. Here's an example:
+Multi-line comments are used to provide more detailed explanations or documentation for multiple lines of code. To write a multi-line comment in Nuru, use a forward slash followed by an asterisk ( /* ) to start the comment, and an asterisk followed by a forward slash ( */ ) to end the comment. Here's an example:
 
 ```go
 /*
