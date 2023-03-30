@@ -30,6 +30,6 @@ ignored
 */
 ```
 
-In this example, all the lines between the /_ and _/ symbols will be ignored by the Nuru interpreter, so they will not affect the behavior of the program.
+In this example, all the lines between the /* and */ symbols will be ignored by the Nuru interpreter, so they will not affect the behavior of the program.
 
 By utilizing single-line and multi-line comments in Nuru, you can make your code more readable and easier to maintain for yourself and others who may need to work with your code in the future.
