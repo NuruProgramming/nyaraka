@@ -16,7 +16,6 @@ Assuming `i` and `v` are predefined variables, Nuru supports the following assig
 - `i -= v`: which is the equivalent of `i = i - v`
 - `i *= v`: which is the equivalent of `i = i * v`
 - `i /= v`: which is the equivalent of `i = i / v`
-- `i += v`: which is the equivalent of `i = i + v`
 
 For `strings`, `arrays` and `dictionaries`, the `+=` sign operator is permissible. Example:
 
