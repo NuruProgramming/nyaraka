@@ -38,7 +38,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Nyumbani', link: '/' },
-      { text: 'Mifano', link: '/' },
+      { text: 'Nyaraka', link: '/' },
     ],
 
     sidebar: kiswahiliSidebar,
