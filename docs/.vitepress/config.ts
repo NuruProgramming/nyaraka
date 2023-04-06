@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import kiswahiliSidebar from './helpers/kiswahili-sidebar'
+import englishSidebar from './helpers/english-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,52 +25,10 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en' },
-          { text: 'Docs', link: '/en/keywords/' },
+          { text: 'Docs', link: '/en/keywords' },
         ],
 
-        sidebar: [
-          {
-            text: 'Fundamentals',
-            items: [
-              { text: 'Keywords', link: '/en/keywords' },
-              { text: 'Comments', link: '/en/comments' },
-              { text: 'Identifiers', link: '/en/identifiers' },
-              { text: 'Operators', link: '/en/operators' },
-              { text: 'Functions', link: '/en/function' },
-              { text: 'Builtins', link: '/en/builtins' },
-            ],
-          },
-          {
-            text: 'Data Types',
-            items: [
-              { text: 'Bool', link: '/en/bool' },
-              { text: 'Null', link: '/en/null' },
-              { text: 'Numbers', link: '/en/numbers' },
-              { text: 'Strings', link: '/en/strings' },
-            ],
-          },
-          {
-            text: 'Data Structures',
-            items: [
-              { text: 'Arrays', link: '/en/arrays' },
-              { text: 'Dictionaries', link: '/en/dictionaries' },
-            ],
-          },
-          {
-            text: 'Conditionals',
-            items: [
-              { text: 'If-Statements', link: '/en/ifStatements' },
-              { text: 'Switch', link: '/en/switch' },
-            ],
-          },
-          {
-            text: 'Loops',
-            items: [
-              { text: 'For', link: '/en/for' },
-              { text: 'While', link: '/en/while' },
-            ],
-          },
-        ],
+        sidebar: englishSidebar,
       },
     },
   },
@@ -78,18 +38,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Nyumbani', link: '/' },
-      { text: 'Mifano', link: '/' },
+      { text: 'Nyaraka', link: '/' },
     ],
 
-    sidebar: [
-      {
-        text: 'Mifano',
-        items: [
-          { text: 'Mifano', link: '/' },
-          { text: 'Habari Dunia', link: '/' },
-        ],
-      },
-    ],
+    sidebar: kiswahiliSidebar,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nuruprogramming' },
