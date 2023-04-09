@@ -7,7 +7,7 @@ const kiswahiliSidebar: Sidebar = [
   //   text: 'Misingi',
   //   items: [
   //     { text: 'Keywords', link: '/keywords' },
-  //     { text: 'Comments', link: '/comments' },
+       { text: 'Maoni', link: '/maoni' },
   //     { text: 'Identifiers', link: '/identifiers' },
   //     { text: 'Operators', link: '/operators' },
   //     { text: 'Functions', link: '/function' },
