@@ -24,11 +24,14 @@ export default defineConfig({
       // other locale specific properties...
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en' },
+          { text: 'Home', link: '/en/' },
           { text: 'Docs', link: '/en/keywords' },
         ],
 
         sidebar: englishSidebar,
+        outline: {
+          label: 'On this page',
+        },
       },
     },
   },
@@ -38,10 +41,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Nyumbani', link: '/' },
-      { text: 'Nyaraka', link: '/' },
+      { text: 'Nyaraka', link: '/maneno-tengwa' },
     ],
 
     sidebar: kiswahiliSidebar,
+    outline: {
+      label: 'Katika ukurasa huu',
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nuruprogramming' },
