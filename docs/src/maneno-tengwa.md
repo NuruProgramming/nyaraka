@@ -46,7 +46,7 @@ Jedwali hapa chini linaorodhesha maneno yaliyohifadhiwa katika Nuru. Maneno haya
 </tbody>
 </table>
 
-## Vilivyojengwa Ndani
+## Vitendakazi Vilivyojengwa Ndani
 
 Nuru pia inatoa vitendakazi vingi vya ndani ambavyo vimehifadhiwa na haviwezi kutumiwa kama vitambulishi. Vitenda kazi hivi vinatoa utendaji muhimu kwa shighuli za kawaida katika lugha:
 
