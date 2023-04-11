@@ -7,9 +7,9 @@ titleTemplate: Ukurasa huu unajadili sintaksia na matumizi ya maneno tengwa kati
 
 Maneno tengwa katika Nuru ni maneno yaliyohifadhiwa ambayo yana maana maalum na hayawezi kutumika kama kitambulishi cha kibadilika, kitenda kazi, au tabaka. Ukurasa huu unajadili sintaksia na matumizi ya maneno tengwa katika Nuru na vitendakazi vilivyojengwa ndani ya Nuru.
 
-## Maneno Tengwa
+## Maneno yaliyohifadhiwa
 
-Jedwali hapa chini linaorodhesha maneno ya kuhifadhi katika Nuru. Maneno haya yana maana maalum katika lugha na hayawezi kutumiwa kama kitambulishi:
+Jedwali hapa chini linaorodhesha maneno yaliyohifadhiwa katika Nuru. Maneno haya yana maana maalum katika lugha na hayawezi kutumiwa kama kitambulishi:
 
 <table style="display: inline-table; width: 100%; text-align: center">
 <tbody>
