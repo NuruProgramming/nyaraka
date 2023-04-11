@@ -3,17 +3,17 @@ import { Sidebar } from './types'
 //link in Kiswahili docs is /name-of-the-file without file extention, eg. /maoni, make sure your file is placed in the src directory.
 
 const kiswahiliSidebar: Sidebar = [
-  // {
-  //   text: 'Misingi',
-  //   items: [
-  //     { text: 'Keywords', link: '/keywords' },
-       { text: 'Maoni', link: '/maoni' },
-  //     { text: 'Identifiers', link: '/identifiers' },
-  //     { text: 'Operators', link: '/operators' },
-  //     { text: 'Functions', link: '/function' },
-  //     { text: 'Builtins', link: '/builtins' },
-  //   ],
-  // },
+  {
+    text: 'Misingi',
+    items: [
+      { text: 'Keywords', link: '/maneno-tengwa' },
+      { text: 'Maoni', link: '/maoni' },
+      //     { text: 'Identifiers', link: '/identifiers' },
+      //     { text: 'Operators', link: '/operators' },
+      //     { text: 'Functions', link: '/function' },
+      //     { text: 'Builtins', link: '/builtins' },
+    ],
+  },
   // {
   //   text: 'Aina za Data',
   //   items: [

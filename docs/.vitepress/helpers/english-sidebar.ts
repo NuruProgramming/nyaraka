@@ -4,8 +4,8 @@ const englishSidebar: Sidebar = [
   {
     text: 'Fundamentals',
     items: [
-      { text: 'Keywords', link: '/en/keywords' },
-      { text: 'Comments', link: '/en/comments' },
+      { text: 'Keywords', link: '/en/maneno-tengwa' },
+      { text: 'Comments', link: '/en/maoni' },
       { text: 'Identifiers', link: '/en/identifiers' },
       { text: 'Operators', link: '/en/operators' },
       { text: 'Functions', link: '/en/function' },

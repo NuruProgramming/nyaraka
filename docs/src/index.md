@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Anza
-      link: /
+      link: /maneno-tengwa
     - theme: alt
       text: Pitia Mifano
       link: /
