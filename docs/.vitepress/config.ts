@@ -29,6 +29,9 @@ export default defineConfig({
         ],
 
         sidebar: englishSidebar,
+        outline: {
+          label: 'On this page',
+        },
       },
     },
   },
@@ -42,6 +45,9 @@ export default defineConfig({
     ],
 
     sidebar: kiswahiliSidebar,
+    outline: {
+      label: 'Katika ukurasa huu',
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nuruprogramming' },
