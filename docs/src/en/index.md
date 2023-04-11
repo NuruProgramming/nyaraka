@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /en/keywords
+      link: /en/maneno-tengwa
     - theme: alt
       text: Examples
       link: /en/

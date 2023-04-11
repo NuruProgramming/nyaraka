@@ -25,7 +25,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Docs', link: '/en/keywords' },
+          { text: 'Docs', link: '/en/maneno-tengwa' },
         ],
 
         sidebar: englishSidebar,
