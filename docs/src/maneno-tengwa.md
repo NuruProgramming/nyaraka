@@ -48,7 +48,7 @@ Jedwali hapa chini linaorodhesha maneno yaliyohifadhiwa katika Nuru. Maneno haya
 
 ## Vitendakazi Vilivyojengwa Ndani
 
-Nuru pia inatoa vitendakazi vingi vya ndani ambavyo vimehifadhiwa na haviwezi kutumiwa kama vitambulishi. Vitenda kazi hivi vinatoa utendaji muhimu kwa shighuli za kawaida katika lugha:
+Nuru pia inatoa vitendakazi vingi vilivyojengwa ndani ambavyo vimehifadhiwa na haviwezi kutumiwa kama vitambulishi. Vitenda kazi hivi vinatoa utendaji muhimu kwa shighuli za kawaida katika lugha:
 
 <table style="display: inline-table; width: 100%; text-align: center">
 <tbody>
