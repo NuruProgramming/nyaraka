@@ -9,7 +9,7 @@ Vitambulishi hutumika kuweka majina kwenye vigezo, vitendakazi na vipengele ving
 
 ## Sheria za Sintaksia
 
-Vitambulishi vinaweza kuwa na herufi, nambari nistari ya chini `_`. Walakini, kuna sheria chache ambazo unapaswa kufuata wakati wa kuunda vitambulisho:
+Vitambulishi vinaweza kuwa na herufi, nambari na nistari wa chini `_`. Walakini, kuna sheria chache ambazo unapaswa kufuata wakati wa kuunda vitambulisho:
 
 - Vitambulisho haviwezi kuanza na nambari.
 - Vitambulishi huwa na tofauti kulingana na matumizi ya herufi kubwa na ndogo. Kwa mfano, myVar na myvar huchukuliwa kuwa vitambulisho tofauti.
