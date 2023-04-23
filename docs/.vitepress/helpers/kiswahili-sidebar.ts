@@ -8,6 +8,7 @@ const kiswahiliSidebar: Sidebar = [
     items: [
       { text: 'Keywords', link: '/maneno-tengwa' },
       { text: 'Maoni', link: '/maoni' },
+      { text: 'Vitambulisho', link: '/vitambulisho' },
       //     { text: 'Identifiers', link: '/identifiers' },
       //     { text: 'Operators', link: '/operators' },
       //     { text: 'Functions', link: '/function' },
