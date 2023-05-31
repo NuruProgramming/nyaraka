@@ -11,7 +11,7 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Vitambulisho', link: '/vitambulisho' },
       { text: 'Viendeshaji', link: '/viendeshaji' },
       //     { text: 'Functions', link: '/function' },
-      //     { text: 'Builtins', link: '/builtins' },
+          { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
     ],
   },
   // {

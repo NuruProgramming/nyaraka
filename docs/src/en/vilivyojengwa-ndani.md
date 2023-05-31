@@ -9,7 +9,7 @@ Nuru has several built-in functions that perform specific tasks.
 
 ## The andika() Function
 
-The andika() function is used to print out messages to the console. It can take zero or more arguments, and the arguments will be printed out with a space in between them. Additionally, andika() supports basic formatting such as /n for a new line, /t for a tab space, and \\ for a backslash. Here's an example:
+The `andika()` function is used to print out messages to the console. It can take zero or more arguments, and the arguments will be printed out with a space in between them. Additionally, `andika()` supports basic formatting such as /n for a new line, /t for a tab space, and \\ for a backslash. Here's an example:
 
 ```go
 andika(1, 2, 3) // Output: "1 2 3"
@@ -17,7 +17,7 @@ andika(1, 2, 3) // Output: "1 2 3"
 
 ## The jaza() Function
 
-The jaza() function is used to get input from the user. It can take zero or one argument, which is a string that will be used as a prompt for the user. Here's an example:
+The `jaza()` function is used to get input from the user. It can take zero or one argument, which is a string that will be used as a prompt for the user. Here's an example:
 
 ```go
 fanya salamu = unda() {
