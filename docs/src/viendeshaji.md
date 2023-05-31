@@ -3,11 +3,11 @@ title: Viendeshaji
 titleTemplate: Ukurasa huu unashughulikia sintaksia na matumizi ya viendeshaji katika Nuru
 ---
 
-# VIENDESHAJI
+# Viendeshaji
 
 Viendeshaji ni msingi wa lugha yoyote ya programu, vinavyokuwezesha kufanya uendeshaji mbalimbali kwenye kibadilika na thamani. Ukurasa huu unashughulikia sintaksia na matumizi ya viendeshaji katika Nuru, ikiwa ni pamoja na uhifandi, hesabu, ulinganisho, mshiriki, na viendeshaji vya mantiki.
 
-## UHIFADHI
+## Uhifadhi
 
 Ukizingatia kuwa `i` na `v` ni vibadilika ambavyo vimeshafafanuliwa, Nuru inawezakuhimili viendeshaji vya uhifadhi vifuatavyo:
 
@@ -23,7 +23,7 @@ Kwa `utungo`, `safu` na `kamusi`, kiendeshaji cha `+=` kinaruhusiwa. Mfano:
 list1 += list2 // hii ni sawa na list1 = list1 + list2
 ```
 
-## VIENDESHAJI VYA HESABU
+## Viendeshaji vya Hesabu
 
 Nuru inaweza kuhimili viendeshaji vya hesabu vifwatavyo:
 
@@ -34,7 +34,7 @@ Nuru inaweza kuhimili viendeshaji vya hesabu vifwatavyo:
 - `%`: Modulo (yaani thamani baki katika kugawanya)
 - `**`: Kipeo (eg: `2**3 = 8`)
 
-## VIENDESHAJI VYA ULINGANISHO
+## Viendeshaji vya Ulinganisho
 
 Nuru inaweza kuhimili viendeshaji vya ulinganisho vifuatavyo:
 
@@ -45,7 +45,7 @@ Nuru inaweza kuhimili viendeshaji vya ulinganisho vifuatavyo:
 - `<`: Ndogo kuliko
 - `<=`: Ndogo kuliko or sawa na
 
-## KIENDESHAJI CHA MSHIRIKI
+## Kiendeshaji cha Mshiriki
 
 Kiendeshaji cha mshiriki katika Nuru ni `ktk`. Kina angalia kama kitu kipo katika kiti kingine:
 
@@ -56,7 +56,7 @@ fanya majina = ['juma', 'asha', 'haruna']
 "halima" ktk majina // sikweli
 ```
 
-## VIENDESHAJI VYA MANTIKI
+## Viendeshaji vya Mantiki
 
 Nuru inaweza kuhimili viendeshaji vya mantiki vifuatavyo:
 
@@ -64,7 +64,7 @@ Nuru inaweza kuhimili viendeshaji vya mantiki vifuatavyo:
 - `||`: Mantiki `OR`. Thamani yake itakua sikweli kama semi zote sikweli, lasivyo thamani yake itakua kweli.
 - `!`: Mantiki `NOT`. Thamani yake itakua kinyume cha usemi husika.
 
-## ITIFAKI YA VIENDESHAJI
+## Itifaki ya Viendeshaji
 
 Viendeshaji vina itifaki ifuatayo, kuanzia kipaumbele cha juu kabisa hadi cha chini kabisa:
 
