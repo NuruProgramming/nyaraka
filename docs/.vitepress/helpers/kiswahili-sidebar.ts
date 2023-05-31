@@ -6,10 +6,10 @@ const kiswahiliSidebar: Sidebar = [
   {
     text: 'Misingi',
     items: [
-      { text: 'Keywords', link: '/maneno-tengwa' },
+      { text: 'Maneno Tengwa', link: '/maneno-tengwa' },
       { text: 'Maoni', link: '/maoni' },
       //     { text: 'Identifiers', link: '/identifiers' },
-      //     { text: 'Operators', link: '/operators' },
+      { text: 'viendeshaji', link: '/viendeshaji' },
       //     { text: 'Functions', link: '/function' },
       //     { text: 'Builtins', link: '/builtins' },
     ],
