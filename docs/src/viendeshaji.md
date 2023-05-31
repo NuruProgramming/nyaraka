@@ -9,7 +9,7 @@ Viendeshaji ni msingi wa lugha yoyote ya programu, vinavyokuwezesha kufanya uend
 
 ## Uhifadhi
 
-Ukizingatia kuwa `i` na `v` ni vibadilika ambavyo vimeshafafanuliwa, Nuru inawezakuhimili viendeshaji vya uhifadhi vifuatavyo:
+Ukizingatia kuwa `i` na `v` ni vibadilika ambavyo vimeshaainishwa, Nuru inawezakuhimili viendeshaji vya uhifadhi vifuatavyo:
 
 - `i = v`: ambayo ni operator ya kawaida ya uhifadhi
 - `i += v`: ambayo ni sawa na `i = i + v`
@@ -17,7 +17,7 @@ Ukizingatia kuwa `i` na `v` ni vibadilika ambavyo vimeshafafanuliwa, Nuru inawez
 - `i *= v`: ambayo ni sawa na `i = i * v`
 - `i /= v`: ambayo ni sawa na `i = i / v`
 
-Kwa `utungo`, `safu` na `kamusi`, kiendeshaji cha `+=` kinaruhusiwa. Mfano:
+Kwa `utungo`, `safu` na `kamusi za data`, kiendeshaji cha `+=` kinaruhusiwa. Mfano:
 
 ```
 list1 += list2 // hii ni sawa na list1 = list1 + list2

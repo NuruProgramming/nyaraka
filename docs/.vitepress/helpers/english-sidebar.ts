@@ -9,7 +9,7 @@ const englishSidebar: Sidebar = [
       { text: 'Identifiers', link: '/en/vitambulisho' },
       { text: 'Operators', link: '/en/viendeshaji' },
       { text: 'Functions', link: '/en/function' },
-      { text: 'Builtins', link: '/en/builtins' },
+      { text: 'Builtins', link: '/en/vilivyojengwa-ndani' },
     ],
   },
   {
