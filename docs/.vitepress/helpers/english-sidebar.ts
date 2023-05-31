@@ -7,7 +7,7 @@ const englishSidebar: Sidebar = [
       { text: 'Keywords', link: '/en/maneno-tengwa' },
       { text: 'Comments', link: '/en/maoni' },
       { text: 'Identifiers', link: '/en/identifiers' },
-      { text: 'Operators', link: '/en/operators' },
+      { text: 'Operators', link: '/en/viendeshaji' },
       { text: 'Functions', link: '/en/function' },
       { text: 'Builtins', link: '/en/builtins' },
     ],
