@@ -9,7 +9,7 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Maneno Tengwa', link: '/maneno-tengwa' },
       { text: 'Maoni', link: '/maoni' },
       //     { text: 'Identifiers', link: '/identifiers' },
-      { text: 'viendeshaji', link: '/viendeshaji' },
+      { text: 'Viendeshaji', link: '/viendeshaji' },
       //     { text: 'Functions', link: '/function' },
       //     { text: 'Builtins', link: '/builtins' },
     ],
