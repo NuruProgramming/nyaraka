@@ -28,7 +28,7 @@ list1 += list2 // hii ni sawa na list1 = list1 + list2
 Nuru inaweza kuhimili viendeshaji vya hesabu vifwatavyo:
 
 - `+`: Kujumlisha
-- `-`: Kujoa
+- `-`: Kutoa
 - `*`: Kuzidisha
 - `/`: Kugawanya
 - `%`: Modulo (yaani thamani baki katika kugawanya)
@@ -41,13 +41,13 @@ Nuru inaweza kuhimili viendeshaji vya ulinganisho vifuatavyo:
 - `==`: Sawa na
 - `!=`: Sio sawa na
 - `>`: Kubwa kuliko
-- `>=`: kubwa kuliko or sawa na
+- `>=`: kubwa kuliko au sawa na
 - `<`: Ndogo kuliko
-- `<=`: Ndogo kuliko or sawa na
+- `<=`: Ndogo kuliko au sawa na
 
 ## Kiendeshaji cha Mshiriki
 
-Kiendeshaji cha mshiriki katika Nuru ni `ktk`. Kina angalia kama kitu kipo katika kiti kingine:
+Kiendeshaji cha mshiriki katika Nuru ni `ktk`. Kina angalia kama kitu kipo katika kitu kingine:
 
 ```go
 fanya majina = ['juma', 'asha', 'haruna']
