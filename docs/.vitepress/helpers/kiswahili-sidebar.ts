@@ -41,7 +41,7 @@ const kiswahiliSidebar: Sidebar = [
     text: 'Vitanzi',
     items: [
       { text: 'Kwa', link: '/kwa' },
-      { text: 'While', link: '/while' },
+      { text: 'Wakati', link: '/wakati' },
     ],
   },
 ]
