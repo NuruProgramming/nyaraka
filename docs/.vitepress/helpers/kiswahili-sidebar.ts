@@ -11,7 +11,7 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Vitambulisho', link: '/vitambulisho' },
       { text: 'Viendeshaji', link: '/viendeshaji' },
       //     { text: 'Functions', link: '/function' },
-          { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
+      { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
     ],
   },
   {
@@ -23,13 +23,13 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Tungo', link: '/tungo' },
     ],
   },
-  // {
-  //   text: 'Miundo ya Data',
-  //   items: [
-  //     { text: 'Arrays', link: '/arrays' },
-  //     { text: 'Dictionaries', link: '/dictionaries' },
-  //   ],
-  // },
+  {
+    text: 'Miundo ya Data',
+    items: [
+      { text: 'Safu', link: '/safu' },
+      { text: 'Dictionaries', link: '/dictionaries' },
+    ],
+  },
   // {
   //   text: 'Masharti',
   //   items: [

@@ -24,7 +24,7 @@ const englishSidebar: Sidebar = [
   {
     text: 'Data Structures',
     items: [
-      { text: 'Arrays', link: '/en/arrays' },
+      { text: 'Safu', link: '/en/safu' },
       { text: 'Dictionaries', link: '/en/dictionaries' },
     ],
   },
