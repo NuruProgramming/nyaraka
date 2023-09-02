@@ -15,7 +15,7 @@ const englishSidebar: Sidebar = [
   {
     text: 'Data Types',
     items: [
-      { text: 'Bool', link: '/en/bool' },
+      { text: 'Bool', link: '/en/buliani' },
       { text: 'Null', link: '/en/null' },
       { text: 'Numbers', link: '/en/nambari' },
       { text: 'Strings', link: '/en/strings' },

@@ -17,7 +17,7 @@ const kiswahiliSidebar: Sidebar = [
   {
     text: 'Aina za Data',
     items: [
-  //     { text: 'Bool', link: '/bool' },
+      { text: 'Buliani', link: '/buliani' },
   //     { text: 'Null', link: '/null' },
       { text: 'Nambari', link: '/nambari' },
   //     { text: 'Strings', link: '/strings' },
