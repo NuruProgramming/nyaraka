@@ -30,13 +30,13 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Kamusi', link: '/kamusi' },
     ],
   },
-  // {
-  //   text: 'Masharti',
-  //   items: [
-  //     { text: 'If-Statements', link: '/ifStatements' },
-  //     { text: 'Switch', link: '/switch' },
-  //   ],
-  // },
+  {
+    text: 'Masharti',
+    items: [
+      { text: 'Kama', link: '/kama' },
+      { text: 'Switch', link: '/switch' },
+    ],
+  },
   // {
   //   text: 'Vitanzi',
   //   items: [

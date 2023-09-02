@@ -31,7 +31,7 @@ const englishSidebar: Sidebar = [
   {
     text: 'Conditionals',
     items: [
-      { text: 'If-Statements', link: '/en/ifStatements' },
+      { text: 'If-Statements', link: '/en/kama' },
       { text: 'Switch', link: '/en/switch' },
     ],
   },
