@@ -21,8 +21,8 @@ const kiswahiliSidebar: Sidebar = [
   //     { text: 'Null', link: '/null' },
       { text: 'Nambari', link: '/nambari' },
   //     { text: 'Strings', link: '/strings' },
-  //   ],
-  // },
+    ],
+  },
   // {
   //   text: 'Miundo ya Data',
   //   items: [
@@ -43,7 +43,7 @@ const kiswahiliSidebar: Sidebar = [
   //     { text: 'For', link: '/for' },
   //     { text: 'While', link: '/while' },
   //   ],
-  },
+  // },
 ]
 
 export default kiswahiliSidebar

@@ -17,7 +17,7 @@ const englishSidebar: Sidebar = [
     items: [
       { text: 'Bool', link: '/en/bool' },
       { text: 'Null', link: '/en/null' },
-      { text: 'Numbers', link: '/en/numbers' },
+      { text: 'Numbers', link: '/en/nambari' },
       { text: 'Strings', link: '/en/strings' },
     ],
   },
