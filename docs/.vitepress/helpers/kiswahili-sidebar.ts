@@ -10,7 +10,7 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Maoni', link: '/maoni' },
       { text: 'Vitambulisho', link: '/vitambulisho' },
       { text: 'Viendeshaji', link: '/viendeshaji' },
-      //     { text: 'Functions', link: '/function' },
+          { text: 'Vitendakazi', link: '/vitendakazi' },
       { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
     ],
   },

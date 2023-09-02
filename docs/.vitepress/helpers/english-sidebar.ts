@@ -8,7 +8,7 @@ const englishSidebar: Sidebar = [
       { text: 'Comments', link: '/en/maoni' },
       { text: 'Identifiers', link: '/en/vitambulisho' },
       { text: 'Operators', link: '/en/viendeshaji' },
-      { text: 'Functions', link: '/en/function' },
+      { text: 'Functions', link: '/en/vitendakazi' },
       { text: 'Builtins', link: '/en/vilivyojengwa-ndani' },
     ],
   },
