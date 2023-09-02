@@ -18,14 +18,14 @@ const englishSidebar: Sidebar = [
       { text: 'Bool', link: '/en/buliani' },
       { text: 'Tupu', link: '/en/tupu' },
       { text: 'Numbers', link: '/en/nambari' },
-      { text: 'Tungo', link: '/en/tungo' },
+      { text: 'Strings', link: '/en/tungo' },
     ],
   },
   {
     text: 'Data Structures',
     items: [
-      { text: 'Safu', link: '/en/safu' },
-      { text: 'Dictionaries', link: '/en/dictionaries' },
+      { text: 'Arrays', link: '/en/safu' },
+      { text: 'Dictionaries', link: '/en/kamusi' },
     ],
   },
   {

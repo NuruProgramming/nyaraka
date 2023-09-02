@@ -27,7 +27,7 @@ const kiswahiliSidebar: Sidebar = [
     text: 'Miundo ya Data',
     items: [
       { text: 'Safu', link: '/safu' },
-      { text: 'Dictionaries', link: '/dictionaries' },
+      { text: 'Kamusi', link: '/kamusi' },
     ],
   },
   // {
