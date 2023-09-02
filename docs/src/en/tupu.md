@@ -21,12 +21,12 @@ When evaluating a null data type in a conditional expression, it will evaluate t
 
 ```go
 kama (a) {
-    andika("niko tupu")
-} sivyo {
     andika("nimevaa nguo")
+} sivyo {
+    andika("nipo tupu")
 }
 
-// Output: nimevaa nguo
+// Output: nipo tupu
 ```
 
 The null data type is useful in Nuru when you need to represent an uninitialized, missing, or undefined value in your programs. By understanding the null data type, you can create more robust and flexible code.
