@@ -20,7 +20,7 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Buliani', link: '/buliani' },
       { text: 'Tupu', link: '/tupu' },
       { text: 'Nambari', link: '/nambari' },
-  //     { text: 'Strings', link: '/strings' },
+      { text: 'Tungo', link: '/tungo' },
     ],
   },
   // {

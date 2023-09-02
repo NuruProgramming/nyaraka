@@ -18,7 +18,7 @@ const englishSidebar: Sidebar = [
       { text: 'Bool', link: '/en/buliani' },
       { text: 'Tupu', link: '/en/tupu' },
       { text: 'Numbers', link: '/en/nambari' },
-      { text: 'Strings', link: '/en/strings' },
+      { text: 'Tungo', link: '/en/tungo' },
     ],
   },
   {
