@@ -37,13 +37,13 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Swichi', link: '/swichi' },
     ],
   },
-  // {
-  //   text: 'Vitanzi',
-  //   items: [
-  //     { text: 'For', link: '/for' },
-  //     { text: 'While', link: '/while' },
-  //   ],
-  // },
+  {
+    text: 'Vitanzi',
+    items: [
+      { text: 'Kwa', link: '/kwa' },
+      { text: 'While', link: '/while' },
+    ],
+  },
 ]
 
 export default kiswahiliSidebar

@@ -38,7 +38,7 @@ const englishSidebar: Sidebar = [
   {
     text: 'Loops',
     items: [
-      { text: 'For', link: '/en/for' },
+      { text: 'For', link: '/en/kwa' },
       { text: 'While', link: '/en/while' },
     ],
   },
