@@ -34,7 +34,7 @@ const kiswahiliSidebar: Sidebar = [
     text: 'Masharti',
     items: [
       { text: 'Kama', link: '/kama' },
-      { text: 'Switch', link: '/switch' },
+      { text: 'Swichi', link: '/swichi' },
     ],
   },
   // {
