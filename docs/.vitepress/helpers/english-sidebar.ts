@@ -16,7 +16,7 @@ const englishSidebar: Sidebar = [
     text: 'Data Types',
     items: [
       { text: 'Bool', link: '/en/buliani' },
-      { text: 'Null', link: '/en/null' },
+      { text: 'Tupu', link: '/en/tupu' },
       { text: 'Numbers', link: '/en/nambari' },
       { text: 'Strings', link: '/en/strings' },
     ],
