@@ -14,12 +14,12 @@ const kiswahiliSidebar: Sidebar = [
           { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
     ],
   },
-  // {
-  //   text: 'Aina za Data',
-  //   items: [
+  {
+    text: 'Aina za Data',
+    items: [
   //     { text: 'Bool', link: '/bool' },
   //     { text: 'Null', link: '/null' },
-  //     { text: 'Numbers', link: '/numbers' },
+      { text: 'Nambari', link: '/nambari' },
   //     { text: 'Strings', link: '/strings' },
   //   ],
   // },
@@ -43,7 +43,7 @@ const kiswahiliSidebar: Sidebar = [
   //     { text: 'For', link: '/for' },
   //     { text: 'While', link: '/while' },
   //   ],
-  // },
+  },
 ]
 
 export default kiswahiliSidebar
