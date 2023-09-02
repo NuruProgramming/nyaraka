@@ -10,8 +10,8 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Maoni', link: '/maoni' },
       { text: 'Vitambulisho', link: '/vitambulisho' },
       { text: 'Viendeshaji', link: '/viendeshaji' },
-      //     { text: 'Functions', link: '/function' },
-          { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
+      { text: 'Vitendakazi', link: '/vitendakazi' },
+      { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
     ],
   },
   {
@@ -23,27 +23,27 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Tungo', link: '/tungo' },
     ],
   },
-  // {
-  //   text: 'Miundo ya Data',
-  //   items: [
-  //     { text: 'Arrays', link: '/arrays' },
-  //     { text: 'Dictionaries', link: '/dictionaries' },
-  //   ],
-  // },
-  // {
-  //   text: 'Masharti',
-  //   items: [
-  //     { text: 'If-Statements', link: '/ifStatements' },
-  //     { text: 'Switch', link: '/switch' },
-  //   ],
-  // },
-  // {
-  //   text: 'Vitanzi',
-  //   items: [
-  //     { text: 'For', link: '/for' },
-  //     { text: 'While', link: '/while' },
-  //   ],
-  // },
+  {
+    text: 'Miundo ya Data',
+    items: [
+      { text: 'Safu', link: '/safu' },
+      { text: 'Kamusi', link: '/kamusi' },
+    ],
+  },
+  {
+    text: 'Masharti',
+    items: [
+      { text: 'Kama', link: '/kama' },
+      { text: 'Swichi', link: '/swichi' },
+    ],
+  },
+  {
+    text: 'Vitanzi',
+    items: [
+      { text: 'Kwa', link: '/kwa' },
+      { text: 'Wakati', link: '/wakati' },
+    ],
+  },
 ]
 
 export default kiswahiliSidebar

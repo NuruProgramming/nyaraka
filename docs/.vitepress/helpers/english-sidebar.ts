@@ -8,7 +8,7 @@ const englishSidebar: Sidebar = [
       { text: 'Comments', link: '/en/maoni' },
       { text: 'Identifiers', link: '/en/vitambulisho' },
       { text: 'Operators', link: '/en/viendeshaji' },
-      { text: 'Functions', link: '/en/function' },
+      { text: 'Functions', link: '/en/vitendakazi' },
       { text: 'Builtins', link: '/en/vilivyojengwa-ndani' },
     ],
   },
@@ -18,28 +18,28 @@ const englishSidebar: Sidebar = [
       { text: 'Bool', link: '/en/buliani' },
       { text: 'Tupu', link: '/en/tupu' },
       { text: 'Numbers', link: '/en/nambari' },
-      { text: 'Tungo', link: '/en/tungo' },
+      { text: 'Strings', link: '/en/tungo' },
     ],
   },
   {
     text: 'Data Structures',
     items: [
-      { text: 'Arrays', link: '/en/arrays' },
-      { text: 'Dictionaries', link: '/en/dictionaries' },
+      { text: 'Arrays', link: '/en/safu' },
+      { text: 'Dictionaries', link: '/en/kamusi' },
     ],
   },
   {
     text: 'Conditionals',
     items: [
-      { text: 'If-Statements', link: '/en/ifStatements' },
-      { text: 'Switch', link: '/en/switch' },
+      { text: 'If-Statements', link: '/en/kama' },
+      { text: 'Switch', link: '/en/swichi' },
     ],
   },
   {
     text: 'Loops',
     items: [
-      { text: 'For', link: '/en/for' },
-      { text: 'While', link: '/en/while' },
+      { text: 'For', link: '/en/kwa' },
+      { text: 'While', link: '/en/wakati' },
     ],
   },
 ]

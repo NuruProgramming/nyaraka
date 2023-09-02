@@ -78,7 +78,7 @@ Arrays in Nuru have several built-in methods:
 
 ### idadi()
 
-idadi() returns the length of an array:
+`idadi()` returns the length of an array:
 
 ```go
 a = [1, 2, 3]
@@ -88,7 +88,7 @@ andika(urefu)  // will print 3
 
 ### sukuma()
 
-sukuma() adds one or more items to the end of an array:
+`sukuma()` adds one or more items to the end of an array:
 
 ```go
 a = [1, 2, 3]
@@ -98,7 +98,7 @@ andika(a)  // will print [1, 2, 3, "s", "g"]
 
 ### yamwisho()
 
-yamwisho() returns the last item in an array, or tupu if the array is empty:
+`yamwisho()` returns the last item in an array, or tupu if the array is empty:
 
 ```go
 a = [1, 2, 3]
