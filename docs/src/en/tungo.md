@@ -125,7 +125,7 @@ fanya a = "nuru"
 a.herufikubwa() // NURU
 ```
 
-### herufindogo
+### herufindogo()
 
 This method converts a string to lowercase. It does not accept any parameters.
 
@@ -134,7 +134,7 @@ fanya a = "NURU"
 a.herufindogo() // nuru
 ```
 
-### gawa
+### gawa()
 
 The gawa method splits a string into an array based on a specified delimiter. If no argument is provided, it will split the string according to whitespace.
 
