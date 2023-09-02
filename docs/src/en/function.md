@@ -16,7 +16,7 @@ jumla = unda(x, y) {
     rudisha x + y
 }
 
-jum(2, 3) // 5
+jumla(2, 3) // 5
 ```
 
 ## Parameters
