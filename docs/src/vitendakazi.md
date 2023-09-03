@@ -9,7 +9,7 @@ Vitendakazi ni sehemu ya msingi ya Nuru inayokuwezesha kuainisha mapande ya msim
 
 ## Sintaksia
 
-Pande la kitendakazi huanza na neno msingi `unda` likifuatiwa na vipengele vinavyowekwa ndani ya mabano `()` na mwili unaowekwa ndani ya mabano mawimbi `{}`. Vitendakazi lazima viwekwe kwenye kibadiliki:
+Pande la kitendakazi huanza na neno msingi `unda` likifuatiwa na vipengele vinavyowekwa ndani ya mabano `()` na mwili unaowekwa ndani ya mabano singasinga `{}`. Vitendakazi lazima viwekwe kwenye kibadiliki:
 
 ```go
 jumla = unda(x, y) {

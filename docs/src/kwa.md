@@ -1,15 +1,15 @@
 ---
-title: Vitenzi vya Kwa
+title: Vitanzi vya Kwa
 titleTemplate: Hutumika kuzunguka vitu vinavyozungukika kama tungo, safu, na kamusi.
 ---
 
-# Vitenzi Vya Kwa Katika Nuru
+# Vitanzi Vya Kwa Katika Nuru
 
-Vitenzi vya `kwa` ni muundo msingi wa udhibiti katika Nuru ambavyo hutumika kuzunguka vitu vinavyozungukika kama tungo, safu, na kamusi. Ukurasahuu unaangazia sintaksia na matumizi ya vitenzi katika Nuru, ikiwemo kuzunguka ndani ya jozi ya funguo-thamani, na matumizi ya matamshi `vunja` na `endelea`.
+Vitanzi vya `kwa` ni muundo msingi wa udhibiti katika Nuru ambavyo hutumika kuzunguka vitu vinavyozungukika kama tungo, safu, na kamusi. Ukurasahuu unaangazia sintaksia na matumizi ya Vitanzi katika Nuru, ikiwemo kuzunguka ndani ya jozi ya funguo-thamani, na matumizi ya matamshi `vunja` na `endelea`.
 
 ## Sintaksia
 
-Kutengeneza kitanzi cha `kwa`, tumia neno msingi `kwa` likifwatiwa na kitambulishi cha muda mfupi kama vile `i` au `v` na kitu kinachozungukika. Funga mwili wa kitanzi na mabano mawimbi `{}`. Mfano unaotumia tungo:
+Kutengeneza kitanzi cha `kwa`, tumia neno msingi `kwa` likifwatiwa na kitambulishi cha muda mfupi kama vile `i` au `v` na kitu kinachozungukika. Funga mwili wa kitanzi na mabano singasinga `{}`. Mfano unaotumia tungo:
 
 ```go
 jina = "lugano"

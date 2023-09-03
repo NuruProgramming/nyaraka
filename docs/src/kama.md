@@ -9,7 +9,7 @@ Matamshi ya shurti katika Nuru yanatumika kutekeleza utendaji tofauti kulingana 
 
 ## Kama
 
-Tamshi la kama linaanza na neno msingi `kama`, likifwatiwa na mabano ya sharti. Kama sharti ni kweli, msimbo ndani ya mabano mawimbi utatekelezwa.
+Tamshi la kama linaanza na neno msingi `kama`, likifwatiwa na mabano ya sharti. Kama sharti ni kweli, msimbo ndani ya mabano singasinga utatekelezwa.
 
 ```go
 kama (2 > 1) {

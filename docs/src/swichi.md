@@ -9,9 +9,9 @@ Matamshi ya Swichi katika Nuru yanakuwezesha kutekeleza mapande tofauti ya msimb
 
 ## Sintaksia
 
-Unaanzisha tamshi la swichi kwa kutumia neno msingi `badili`, semi ndani ya mabano `()`, na kesi zote ndani ya mabano mawimbi `{}`.
+Unaanzisha tamshi la swichi kwa kutumia neno msingi `badili`, semi ndani ya mabano `()`, na kesi zote ndani ya mabano singasinga `{}`.
 
-Tamshi la kesi lina neno msingi `ikiwa`, likifwatiwa na thamani ya kuangaliwa. Thamani nyingi zinaweza kuwa katika kesi moja zikitenganishwa na mkato `,`. Msimbo wa kutekelezwa ikiwa sharti limetimizwa unatakiwa uwe ndani ya mabano mawimbi `{}`. Kwa mfano:
+Tamshi la kesi lina neno msingi `ikiwa`, likifwatiwa na thamani ya kuangaliwa. Thamani nyingi zinaweza kuwa katika kesi moja zikitenganishwa na mkato `,`. Msimbo wa kutekelezwa ikiwa sharti limetimizwa unatakiwa uwe ndani ya mabano singasinga `{}`. Kwa mfano:
 
 ```go
 fanya a = 2

@@ -1,15 +1,15 @@
 ---
 title: Wakati
-titleTemplate: Vitenzi vya wakati katika Nuru hutumika kutekeleza pande la msimbo kwa kujirudia maadam sharti lililopewa ni kweli
+titleTemplate: Vitanzi vya wakati katika Nuru hutumika kutekeleza pande la msimbo kwa kujirudia maadam sharti lililopewa ni kweli
 ---
 
 # Wakati Katika Nuru
 
-Vitenzi vya wakati katika Nuru hutumika kutekeleza pande la msimbo kwa kujirudia maadam sharti lililopewa ni kweli. Ukurasa huu utaangazia vitenzi vya wakati ikiwemo jinsi ya kutumia maneno msingi `vunja` na `endelea` ndani yake.
+Vitanzi vya wakati katika Nuru hutumika kutekeleza pande la msimbo kwa kujirudia maadam sharti lililopewa ni kweli. Ukurasa huu utaangazia Vitanzi vya wakati ikiwemo jinsi ya kutumia maneno msingi `vunja` na `endelea` ndani yake.
 
 ## Sintaksia
 
-Kitenzi cha wakati hutekelezwa pale ambapo sharti lililopo ni kweli. Unaanzisha kitenzi cha wakati kwa kutumia neno msingi `wakati` likifwatiwa na sharti katika mabano `()`. Matokeo ya kitanzi yanatakiwa kuwekwa ndani ya mabano mawimbi `{}`:
+Kitanzi cha wakati hutekelezwa pale ambapo sharti lililopo ni kweli. Unaanzisha kitanzi cha wakati kwa kutumia neno msingi `wakati` likifwatiwa na sharti katika mabano `()`. Matokeo ya kitanzi yanatakiwa kuwekwa ndani ya mabano singasinga `{}`:
 
 ```go
 fanya i = 1
@@ -78,4 +78,4 @@ nimeruka
 5
 ```
 
-Kwa kuelewa vitenzi vya wakati katika Nuru, unaweza kutengeneza msimbo ambao unajirudia kufanya jambo fulani au kuangalia masharti fulani, na kukupatia unyumbulifu na udhibiti katika utekelezaji wa misimbo yako.
+Kwa kuelewa Vitanzi vya wakati katika Nuru, unaweza kutengeneza msimbo ambao unajirudia kufanya jambo fulani au kuangalia masharti fulani, na kukupatia unyumbulifu na udhibiti katika utekelezaji wa misimbo yako.
