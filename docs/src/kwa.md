@@ -9,7 +9,7 @@ Vitenzi vya `kwa` ni muundo msingi wa udhibiti katika Nuru ambavyo hutumika kuzu
 
 ## Sintaksia
 
-Kutengeneza kitanzi cha `kwa`, tumia neno msingi `kwa` likifwatiwa na kitambulishi cha muda mfupi kama vile `i` au `v` na kitu kinachozungukika. Funga mwili wa kitanzi na mabano mawimbi `{}`. Mfano unaotumia tungo:
+Kutengeneza kitanzi cha `kwa`, tumia neno msingi `kwa` likifwatiwa na kitambulishi cha muda mfupi kama vile `i` au `v` na kitu kinachozungukika. Funga mwili wa kitanzi na mabano singasinga `{}`. Mfano unaotumia tungo:
 
 ```go
 jina = "lugano"

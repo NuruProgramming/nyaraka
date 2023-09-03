@@ -9,7 +9,7 @@ Kamusi katika Nuru ni miundo ya data inayotunza jozi za funguo-thamani. Ukurasa 
 
 ## Kutengeneza Kamusi
 
-Kamusi zinawekwa kwenye mabano mawimbi na hujumuisha funguo na thamani zake zikitenganishwa na nukta pacha. Mfano wa uainishwaji wa kamusi:
+Kamusi zinawekwa kwenye mabano singasinga na hujumuisha funguo na thamani zake zikitenganishwa na nukta pacha. Mfano wa uainishwaji wa kamusi:
 
 ```go
 

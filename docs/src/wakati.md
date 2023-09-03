@@ -9,7 +9,7 @@ Vitenzi vya wakati katika Nuru hutumika kutekeleza pande la msimbo kwa kujirudia
 
 ## Sintaksia
 
-Kitenzi cha wakati hutekelezwa pale ambapo sharti lililopo ni kweli. Unaanzisha kitenzi cha wakati kwa kutumia neno msingi `wakati` likifwatiwa na sharti katika mabano `()`. Matokeo ya kitanzi yanatakiwa kuwekwa ndani ya mabano mawimbi `{}`:
+Kitenzi cha wakati hutekelezwa pale ambapo sharti lililopo ni kweli. Unaanzisha kitenzi cha wakati kwa kutumia neno msingi `wakati` likifwatiwa na sharti katika mabano `()`. Matokeo ya kitanzi yanatakiwa kuwekwa ndani ya mabano singasinga `{}`:
 
 ```go
 fanya i = 1
