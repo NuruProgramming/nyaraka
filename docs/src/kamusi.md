@@ -16,7 +16,7 @@ Kamusi zinawekwa kwenye mabano singasinga na hujumuisha funguo na thamani zake z
 orodha = {"jina": "Juma", "umri": 25}
 ```
 
-Funguo zinawezakua tungo, namba, desimali, au buliani na thamani inaweza kua aina ya data yoyote ikiwemo tungo, namba, desimali, buliani, tupu, au function:
+Funguo zinawezakua tungo, namba, desimali, au buliani na thamani inaweza kua aina ya data yoyote ikiwemo tungo, namba, desimali, buliani, tupu, au kitendakazi:
 
 ```go
 k = {
