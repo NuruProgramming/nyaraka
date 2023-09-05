@@ -5,11 +5,11 @@ titleTemplate: Matamshi ya shurti katika Nuru yanatumika kutekeleza utendaji tof
 
 # Matamshi ya Shurti katika Nuru
 
-Matamshi ya shurti katika Nuru yanatumika kutekeleza utendaji tofauti kulingana na masharti fulani. Tamshi la kama/sivyo muundo wa msingi kudhibiti ambao unakuwezesha kutekeleza msimbo kwa kulingana na masharti maalum. Ukirasa huu unaangazia misingi ya tamshi la kama/sivyo katika Nuru.
+Matamshi ya shurti katika Nuru yanatumika kutekeleza utendaji tofauti kulingana na masharti fulani. Tamshi la kama/sivyo muundo wa msingi kudhibiti ambao unakuwezesha kutekeleza msimbo kwa kulingana na masharti maalum. Ukurasa huu unaangazia misingi ya tamshi la kama/sivyo katika Nuru.
 
 ## Kama
 
-Tamshi la kama linaanza na neno msingi `kama`, likifwatiwa na mabano ya sharti. Kama sharti ni kweli, msimbo ndani ya mabano singasinga utatekelezwa.
+Tamshi la kama linaanza na neno msingi `kama`, likifuatiwa na mabano ya sharti. Kama sharti ni kweli, msimbo ndani ya mabano singasinga utatekelezwa.
 
 ```go
 kama (2 > 1) {
