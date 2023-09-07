@@ -9,7 +9,7 @@ Nambari kamili na desimali ni aina za msingi za data katika Nuru, zinazotumiwa k
 
 ## UTANGULIZI
 
-Nambari kamili na desimali hufanya kama inavyotarajiwa katika shughuli za hisabati, kwa kufuata kanuni ya BODMAS:
+Nambari kamili na desimali hufanya kama inavyotarajiwa katika shughuli za hisabati, kwa kufuata kanuni ya MAGAZIJUTO:
 
 ```go
 2 + 3 * 5 // 17
@@ -22,7 +22,7 @@ a + b // 2.8
 
 ## ONGEZEKO ISIYO YA KAWAIDA
 
-Unaweza kufanya nyongeza zisizo za kawaida (++ na --) kwa desimali na nambari kamili. Hizi zitaongeza au kupunguza 1 kutoka kwa thamani ya sasa. Kumbuka kuwa desimali au int lazima iwe imepewa kihifadhi ili operesheni hii ifanye kazi. Hapa kuna mfano:
+Unaweza kufanya nyongeza zisizo za kawaida (++ na --) kwa desimali na nambari kamili. Hizi zitaongeza au kupunguza 1 kutoka kwa thamani ya sasa. Kumbuka kuwa desimali au namba kamili lazima iwe imepewa kihifadhi ili operesheni hii ifanye kazi. Hapa kuna mfano:
 
 ```go
 fanya i = 2.4
