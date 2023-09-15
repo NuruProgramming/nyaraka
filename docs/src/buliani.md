@@ -56,7 +56,7 @@ andika(kweli && sikweli) // Tokeo: `sikweli`
 
 ### Kitendakazi `||`
 
-Kitendakazi || hutathmini kwenda to kweli kama angalau kitu kimoja kati ya vyote vinavyohusika ni kweli. Kwa mfano:
+Kitendakazi || hutathmini kwenda kweli kama angalau kitu kimoja kati ya vyote vinavyohusika ni kweli. Kwa mfano:
 
 ```go
 andika(kweli || sikweli) // Tokeo: `kweli`
