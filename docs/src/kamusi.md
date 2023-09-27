@@ -5,7 +5,7 @@ titleTemplate: Kamusi katika Nuru ni miundo ya data inayotunza jozi za funguo-th
 
 # Kamusi Katika Nuru
 
-Kamusi katika Nuru ni miundo ya data inayotunza jozi za funguo-thamani. Ukurasa huu unatoa maelezi kuhusu Kamusi katika Nuru, ikiwemo namna ya kutengeneza, namna ya kubadilisha, na namna ya kuzunguka ndani yake.
+Kamusi katika Nuru ni miundo ya data inayotunza jozi za funguo-thamani. Ukurasa huu unatoa maelezo kuhusu Kamusi katika Nuru, ikiwemo namna ya kutengeneza, namna ya kubadilisha, na namna ya kuzunguka ndani yake.
 
 ## Kutengeneza Kamusi
 
