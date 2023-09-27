@@ -15,7 +15,7 @@ hero:
       link: /
 
 features:
-  - title: Syntax Rahisi 😎
+  - title: Sintaksia Rahisi 😎
     details: Sintaksia ya Nuru ni rahisi kujifunza kwa wenye uzoefu na wasio na uzoefu na kutengeneza programu.
   - title: Maneno Rahisi 🎹
     details: Andika programu kana kwamba unaandika barua na maneno rahisi kama andika() kuchapisha kitu na jaza() kupata maingizo kutoka kwa watumiaji.

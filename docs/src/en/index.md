@@ -5,8 +5,8 @@ title: Nuru
 titleTemplate: Swahili Programing Language
 
 hero:
-  name: 'Nuru'
-  text: 'Swahili Programing Language'
+  name: "Nuru"
+  text: "Swahili Programing Language"
   tagline: Easy to learn, Easy to use.
   actions:
     - theme: brand
@@ -17,10 +17,10 @@ hero:
       link: /en/
 
 features:
-  - title: Syntax Rahisi 😎
-    details: Sintaksia ya Nuru ni rahisi kujifunza kwa wenye uzoefu na wasio na uzoefu na kutengeneza programu.
-  - title: Maneno Rahisi 🎹
-    details: Andika programu kana kwamba unaandika barua na maneno rahisi kama andika() kuchapisha kitu na jaza() kupata maingizo kutoka kwa watumiaji.
-  - title: Inaendeshwa na Jumuiya 👥
-    details: Nuru inaendeshwa na jamii na sauti yako ni muhimu. Tunahakikisha kushauriana na jamii kabla ya kufanya uamuzi. Njoo ujiunge nasi <a href="https://t.me/NuruProgrammingChat" target="_blank" rel="noopener noreferrer">Telegram</a>
+  - title: Easy Syntax 😎
+    details: Nuru's syntax is easy and consistent, making it easily adaptable by both experienced and non experienced programmers.
+  - title: Simple Keywords 🎹
+    details: Keywords in Nuru are simple and intuitive. For example, use andika() to print out something, jaza() to get input from a user.
+  - title: Community Driven 👥
+    details: Nuru is community driven and your voice matters. We make sure to consult the community before making a decision. Come join us on <a href="https://t.me/NuruProgrammingChat" target="_blank" rel="noopener noreferrer">Telegram</a>
 ---
