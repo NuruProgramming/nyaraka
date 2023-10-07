@@ -1,9 +1,11 @@
 ---
-title: Uanishaji wa kanuni
+title: Kanuni za Upangaji katika Nuru
 # titleTemplate:
 ---
 
-# Uanishaji wa kanuni katika Nuru
+# Kanuni za Upangaji katika Nuru
+
+Mfano huu umeandaliwa na [@VictorKariuki](https://github.com/VictorKariuki)
 
 ## Vunja
 

@@ -5,6 +5,8 @@ title: Sorting Algorithm
 
 # Sorting Algorithm in Nuru
 
+This example is prepared by [@VictorKariuki](https://github.com/VictorKariuki)
+
 ## Slice
 
 ```go
