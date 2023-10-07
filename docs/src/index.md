@@ -12,7 +12,7 @@ hero:
       link: /maneno-tengwa
     - theme: alt
       text: Pitia Mifano
-      link: /ainisha-kanuni
+      link: /kanuni-za-upangaji
 
 features:
   - title: Sintaksia Rahisi 😎
