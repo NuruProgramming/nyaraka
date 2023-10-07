@@ -5,22 +5,15 @@ title: Sudoku Sorver
 
 # Sudoku Solver
 
+This example is prepared by [@VictorKariuki](https://github.com/VictorKariuki)
+
 ## This solution solves sudoku using Backtracking Algorithm
 
-The sudoku puzzle is represented as a 2D array. The empty
-cells are represented by 0. The algorithm works by trying
-out all possible numbers for an empty cell. If the number
-is valid, it is placed in the cell. If the number is invalid,
-the algorithm backtracks to the previous cell and tries
-another number. The algorithm terminates when all cells
-are filled. The algorithm is implemented in the solveSudoku
-function. The isValid function checks kama a number is
-valid in a given cell. The printSudoku function prints
-the sudoku puzzle. The solveSudoku function solves the
-sudoku puzzle. The main function initializes the sudoku
-puzzle and calls the solveSudoku function.
+The sudoku puzzle is represented as a 2D array. The empty cells are represented by 0. The algorithm works by trying
+out all possible numbers for an empty cell. If the number is valid, it is placed in the cell. If the number is invalid,the algorithm backtracks to the previous cell and tries another number.
 
-##
+The algorithm terminates when all cells are filled. The algorithm is implemented in the solveSudoku function. The isValid function checks kama a number is valid in a given cell. The printSudoku function prints the sudoku puzzle. The solveSudoku function solves the sudoku puzzle. The main function initializes the sudoku puzzle and calls the solveSudoku function.
+
 ```go
 fanya printSudoku = unda(sudoku) {
     fanya row = 0

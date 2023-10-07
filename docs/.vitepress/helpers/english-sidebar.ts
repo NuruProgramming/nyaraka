@@ -46,8 +46,8 @@ const englishSidebar: Sidebar = [
     text: 'Examples',
     items: [
       // { text: "Example", link: "/en/mfano" },
-      { text: 'Sorting Algorithm', link: '/en/ainisha-kanuni' },
-      { text: 'Sudoku Solver', link: '/en/suluhishi-sudoku' },
+      { text: 'Sorting Algorithm', link: '/en/kanuni-za-upangaji' },
+      { text: 'Sudoku Solver', link: '/en/suluhisho-sudoku' },
     ],
   },
 ]
