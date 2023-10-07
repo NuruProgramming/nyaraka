@@ -14,7 +14,7 @@ hero:
       link: /en/maneno-tengwa
     - theme: alt
       text: Examples
-      link: /en/
+      link: /en/ainisha-kanuni
 
 features:
   - title: Easy Syntax 😎

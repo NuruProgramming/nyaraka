@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: 'Nuru'
-  text: 'Lugha ya kiprogramu ya Kiswahili'
+  name: "Nuru"
+  text: "Lugha ya kiprogramu ya Kiswahili"
   tagline: Rahisi Kujifunza, Rahisi Kutumia.
   actions:
     - theme: brand
@@ -12,7 +12,7 @@ hero:
       link: /maneno-tengwa
     - theme: alt
       text: Pitia Mifano
-      link: /
+      link: /ainisha-kanuni
 
 features:
   - title: Sintaksia Rahisi 😎
