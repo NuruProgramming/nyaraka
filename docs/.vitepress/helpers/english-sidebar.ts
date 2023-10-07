@@ -42,6 +42,14 @@ const englishSidebar: Sidebar = [
       { text: 'While', link: '/en/wakati' },
     ],
   },
+  {
+    text: 'Examples',
+    items: [
+      // { text: "Example", link: "/en/mfano" },
+      { text: 'Sorting Algorithm', link: '/en/ainisha-kanuni' },
+      { text: 'Sudoku Solver', link: '/en/suluhishi-sudoku' },
+    ],
+  },
 ]
 
 export default englishSidebar

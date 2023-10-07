@@ -44,6 +44,14 @@ const kiswahiliSidebar: Sidebar = [
       { text: 'Wakati', link: '/wakati' },
     ],
   },
+  {
+    text: 'Mifano',
+    items: [
+      // { text: "Mfano", link: "/mfano" },
+      { text: 'Uanishaji wa Kanuni', link: '/ainisha-kanuni' },
+      { text: 'kisuluhishi cha Sudoku', link: '/suluhishi-sudoku' },
+    ],
+  },
 ]
 
 export default kiswahiliSidebar
