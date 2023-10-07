@@ -42,10 +42,10 @@ fanya unganisha = unda(kushoto, kulia) {
 }
 ```
 
-## Ainisha na Unganisha
+## Pangilia na Unganisha
 
 ```go
-fanya ungaAinisha = unda(safu){
+fanya ungaPangilia = unda(safu){
     fanya urefu = idadi(safu)
     andika("safu ni ", safu," yenye urefu ", urefu)
     kama (urefu < 2) {
@@ -60,14 +60,14 @@ fanya ungaAinisha = unda(safu){
     fanya kulia = vunja(safu, kati, urefu)
     andika("upande wa kushoto ni ", kushoto)
     andika("upande wa kulia ni ", kulia)
-    fanya ainishaKushoto = ungaAinisha(left)
-    fanya ainishaKulia = ungaAinisha(right)
-    andika("safu ainishwa ya kushoto ni ", ainishaKushoto)
-    andika("safu ainishwa ya kulis ni ", ainishaKulia)
-    rudisha unganisha(ainishaKushoto, ainishaKulia)
+    fanya pangiliaKushoto = ungaPangilia(left)
+    fanya pangiliaKulia = ungaPangilia(right)
+    andika("safu ainishwa ya kushoto ni ", pangiliaKushoto)
+    andika("safu ainishwa ya kulis ni ", pangiliaKulia)
+    rudisha unganisha(pangiliaKushoto, pangiliaKulia)
 }
 
 fanya safu = [6, 5, 3, 1, 8, 7, 2, 4]
-fanya safuAinishwa = ungaAinisha(safu)
+fanya safuAinishwa = ungaPangilia(safu)
 andika(safuAinishwa)
 ```
