@@ -17,7 +17,7 @@ Kitendakazi niHalali kinaangalia kama namba ni halali kwenye seli tajwa. Kitenda
 ```go
 fanya andikaSudoku = unda(sudoku) {
     fanya i = 0
-    wakati (row < 9){
+    wakati (i < 9){
         andika(sudoku[i])
         i++
     }
@@ -25,25 +25,25 @@ fanya andikaSudoku = unda(sudoku) {
 
 fanya sudoku = [[3, 0, 6, 5, 0, 8, 4, 0, 0],[5, 2, 0, 0, 0, 0, 0, 0, 0],[0, 8, 7, 0, 0, 0, 0, 3, 1],[0, 0, 3, 0, 1, 0, 0, 8, 0],[9, 0, 0, 8, 6, 3, 0, 0, 5],[0, 5, 0, 0, 9, 0, 6, 0, 0],[1, 3, 0, 0, 0, 0, 2, 5, 0],[0, 0, 0, 0, 0, 0, 0, 7, 4],[0, 0, 5, 2, 0, 6, 3, 0, 0]]
 
-fanya niHalali = unda(grid, row, col, num) {
+fanya niHalali = unda(gridi, safuMlalo, safuWima, namba) {
     kwa x ktk [0,1,2,3,4,5,6,7,8] {
-        kama (grid[row][x] == num) {
+        kama (gridi[safuMlalo][x] == namba) {
             rudisha sikweli
         }
     }
 
     kwa x ktk [0,1,2,3,4,5,6,7,8] {
-        kama (grid[x][col] == num) {
+        kama (gridi[x][safuWima] == namba) {
             rudisha sikweli
         }
     }
 
-    fanya startRow = row - row % 3
-    fanya startCol = col - col % 3
+    fanya anzaSafuMlalo = safuMlalo - safuMlalo % 3
+    fanya anzaSafuWima = safuWima - safuWima % 3
 
     kwa i ktk [0, 1, 2] {
         kwa j ktk [0, 1, 2] {
-            kama (grid[i + startRow][j + startCol] == num) {
+            kama (gridi[i + anzaSafuMlalo][j + anzaSafuWima] == namba) {
                 rudisha sikweli
             }
         }
@@ -52,29 +52,29 @@ fanya niHalali = unda(grid, row, col, num) {
     rudisha kweli
 }
 
-fanya suluhishaSudoku = unda(grid, row, col) {
-    kama (row == 8 && col == 9) {
+fanya suluhishaSudoku = unda(gridi, safuMlalo, safuWima) {
+    kama (safuMlalo == 8 && safuWima == 9) {
         rudisha kweli
     }
 
-    kama (col == 9) {
-        row += 1
-        col = 0
+    kama (safuWima == 9) {
+        safuMlalo += 1
+        safuWima = 0
     }
 
-    kama (grid[row][col] > 0) {
-        rudisha suluhishaSudoku(grid, row, col + 1)
+    kama (gridi[safuMlalo][safuWima] > 0) {
+        rudisha suluhishaSudoku(gridi, safuMlalo, safuWima + 1)
     }
 
-    kwa num ktk [1,2,3,4,5,6,7,8,9] {
-        kama (niHalali(grid, row, col, num)) {
-            grid[row][col] = num
-            kama (suluhishaSudoku(grid, row, col + 1)) {
+    kwa namba ktk [1,2,3,4,5,6,7,8,9] {
+        kama (niHalali(gridi, safuMlalo, safuWima, namba)) {
+            gridi[safuMlalo][safuWima] = namba
+            kama (suluhishaSudoku(gridi, safuMlalo, safuWima + 1)) {
                 rudisha kweli
             }
         }
 
-        grid[row][col] = 0
+        gridi[safuMlalo][safuWima] = 0
     }
 
     rudisha sikweli

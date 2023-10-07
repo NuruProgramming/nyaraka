@@ -14,7 +14,7 @@ hero:
       link: /en/maneno-tengwa
     - theme: alt
       text: Examples
-      link: /en/kanuni-za-upangaji
+      link: /en/ingizo-la-mtumiaji
 
 features:
   - title: Easy Syntax 😎
