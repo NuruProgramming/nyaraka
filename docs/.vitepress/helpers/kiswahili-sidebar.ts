@@ -47,7 +47,8 @@ const kiswahiliSidebar: Sidebar = [
   {
     text: 'Mifano',
     items: [
-      // { text: "Mfano", link: "/mfano" },
+      { text: 'Ingizo la Mtumiaji', link: '/ingizo-la-mtumiaji' },
+      { text: 'Fibonacci', link: '/fibonacci' },
       { text: 'Kanuni za Upangaji', link: '/kanuni-za-upangaji' },
       { text: 'Suluhisho la Sudoku', link: '/suluhisho-sudoku' },
     ],
