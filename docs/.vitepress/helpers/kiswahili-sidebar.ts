@@ -1,57 +1,57 @@
-import { Sidebar } from "./types";
+import { Sidebar } from './types'
 
 //link in Kiswahili docs is /name-of-the-file without file extention, eg. /maoni, make sure your file is placed in the src directory.
 
 const kiswahiliSidebar: Sidebar = [
   {
-    text: "Misingi",
+    text: 'Misingi',
     items: [
-      { text: "Maneno Tengwa", link: "/maneno-tengwa" },
-      { text: "Maoni", link: "/maoni" },
-      { text: "Vitambulisho", link: "/vitambulisho" },
-      { text: "Viendeshaji", link: "/viendeshaji" },
-      { text: "Vitendakazi", link: "/vitendakazi" },
-      { text: "Vilivyojengwa Ndani", link: "/vilivyojengwa-ndani" },
+      { text: 'Maneno Tengwa', link: '/maneno-tengwa' },
+      { text: 'Maoni', link: '/maoni' },
+      { text: 'Vitambulisho', link: '/vitambulisho' },
+      { text: 'Viendeshaji', link: '/viendeshaji' },
+      { text: 'Vitendakazi', link: '/vitendakazi' },
+      { text: 'Vilivyojengwa Ndani', link: '/vilivyojengwa-ndani' },
     ],
   },
   {
-    text: "Aina za Data",
+    text: 'Aina za Data',
     items: [
-      { text: "Buliani", link: "/buliani" },
-      { text: "Tupu", link: "/tupu" },
-      { text: "Nambari", link: "/nambari" },
-      { text: "Tungo", link: "/tungo" },
+      { text: 'Buliani', link: '/buliani' },
+      { text: 'Tupu', link: '/tupu' },
+      { text: 'Nambari', link: '/nambari' },
+      { text: 'Tungo', link: '/tungo' },
     ],
   },
   {
-    text: "Miundo ya Data",
+    text: 'Miundo ya Data',
     items: [
-      { text: "Safu", link: "/safu" },
-      { text: "Kamusi", link: "/kamusi" },
+      { text: 'Safu', link: '/safu' },
+      { text: 'Kamusi', link: '/kamusi' },
     ],
   },
   {
-    text: "Masharti",
+    text: 'Masharti',
     items: [
-      { text: "Kama", link: "/kama" },
-      { text: "Swichi", link: "/swichi" },
+      { text: 'Kama', link: '/kama' },
+      { text: 'Swichi', link: '/swichi' },
     ],
   },
   {
-    text: "Vitanzi",
+    text: 'Vitanzi',
     items: [
-      { text: "Kwa", link: "/kwa" },
-      { text: "Wakati", link: "/wakati" },
+      { text: 'Kwa', link: '/kwa' },
+      { text: 'Wakati', link: '/wakati' },
     ],
   },
   {
-    text: "Mifano",
+    text: 'Mifano',
     items: [
       // { text: "Mfano", link: "/mfano" },
-      { text: "Uanishaji wa Kanuni", link: "/ainisha-kanuni" },
-      { text: "kisuluhishi cha Sudoku", link: "/suluhishi-sudoku" },
+      { text: 'Uanishaji wa Kanuni', link: '/ainisha-kanuni' },
+      { text: 'kisuluhishi cha Sudoku', link: '/suluhishi-sudoku' },
     ],
   },
-];
+]
 
-export default kiswahiliSidebar;
+export default kiswahiliSidebar

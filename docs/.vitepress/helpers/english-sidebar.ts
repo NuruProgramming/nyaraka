@@ -1,55 +1,55 @@
-import { Sidebar } from "./types";
+import { Sidebar } from './types'
 
 const englishSidebar: Sidebar = [
   {
-    text: "Fundamentals",
+    text: 'Fundamentals',
     items: [
-      { text: "Keywords", link: "/en/maneno-tengwa" },
-      { text: "Comments", link: "/en/maoni" },
-      { text: "Identifiers", link: "/en/vitambulisho" },
-      { text: "Operators", link: "/en/viendeshaji" },
-      { text: "Functions", link: "/en/vitendakazi" },
-      { text: "Builtins", link: "/en/vilivyojengwa-ndani" },
+      { text: 'Keywords', link: '/en/maneno-tengwa' },
+      { text: 'Comments', link: '/en/maoni' },
+      { text: 'Identifiers', link: '/en/vitambulisho' },
+      { text: 'Operators', link: '/en/viendeshaji' },
+      { text: 'Functions', link: '/en/vitendakazi' },
+      { text: 'Builtins', link: '/en/vilivyojengwa-ndani' },
     ],
   },
   {
-    text: "Data Types",
+    text: 'Data Types',
     items: [
-      { text: "Bool", link: "/en/buliani" },
-      { text: "Tupu", link: "/en/tupu" },
-      { text: "Numbers", link: "/en/nambari" },
-      { text: "Strings", link: "/en/tungo" },
+      { text: 'Bool', link: '/en/buliani' },
+      { text: 'Tupu', link: '/en/tupu' },
+      { text: 'Numbers', link: '/en/nambari' },
+      { text: 'Strings', link: '/en/tungo' },
     ],
   },
   {
-    text: "Data Structures",
+    text: 'Data Structures',
     items: [
-      { text: "Arrays", link: "/en/safu" },
-      { text: "Dictionaries", link: "/en/kamusi" },
+      { text: 'Arrays', link: '/en/safu' },
+      { text: 'Dictionaries', link: '/en/kamusi' },
     ],
   },
   {
-    text: "Conditionals",
+    text: 'Conditionals',
     items: [
-      { text: "If-Statements", link: "/en/kama" },
-      { text: "Switch", link: "/en/swichi" },
+      { text: 'If-Statements', link: '/en/kama' },
+      { text: 'Switch', link: '/en/swichi' },
     ],
   },
   {
-    text: "Loops",
+    text: 'Loops',
     items: [
-      { text: "For", link: "/en/kwa" },
-      { text: "While", link: "/en/wakati" },
+      { text: 'For', link: '/en/kwa' },
+      { text: 'While', link: '/en/wakati' },
     ],
   },
   {
-    text: "Examples",
+    text: 'Examples',
     items: [
       // { text: "Example", link: "/en/mfano" },
-      { text: "Sorting Algorithm", link: "/en/ainisha-kanuni" },
-      { text: "Sudoku Solver", link: "/en/suluhishi-sudoku" },
+      { text: 'Sorting Algorithm', link: '/en/ainisha-kanuni' },
+      { text: 'Sudoku Solver', link: '/en/suluhishi-sudoku' },
     ],
   },
-];
+]
 
-export default englishSidebar;
+export default englishSidebar

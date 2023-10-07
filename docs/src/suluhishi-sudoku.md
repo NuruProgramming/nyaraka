@@ -7,10 +7,10 @@ title: Suluhishi la Sudoku
 
 ## Hili suluhishi linasuluhisha sudoku kwa kutumia kanuni ya Backtracking
 
-Fumbo la sudoku linawakilishwa na safu yenye pandeolwa mbili. 
-Seli tupu zinawakilishwa na 0. 
-Kanuni inafanya kazi kwa kujaribu namba zote zinazoweza tumika kwenye seli tupu. 
-Kama namba ni halali, itawekwa kwenye seli. 
+Fumbo la sudoku linawakilishwa na safu yenye pandeolwa mbili.
+Seli tupu zinawakilishwa na 0.
+Kanuni inafanya kazi kwa kujaribu namba zote zinazoweza tumika kwenye seli tupu.
+Kama namba ni halali, itawekwa kwenye seli.
 Kama namba ni batili, kanuni itarudi kwenye seli ya nyuma na kujaribu namba nyingine.
 Kanuni itaacha kufanya kazi kama hakutakuwa na seli tupu. Kanuni imetengenezwa kwenye kitendakazi suluhishaSudoku.
 Kitendakazi niHalali kinaangalia kama namba ni halali kwenye seli tajwa.
@@ -22,7 +22,7 @@ Kitendakazi kikuu kinatumika kuanzisha fumbo la sudoku na kuita kitendakazi cha 
 ```go
 fanya andikaSudoku = unda(sudoku) {
     fanya i = 0
-    wakati (i < 9){
+    wakati (row < 9){
         andika(sudoku[i])
         i++
     }
