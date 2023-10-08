@@ -59,5 +59,29 @@ export default defineConfig({
         link: 'https://t.me/NuruProgrammingChat',
       },
     ],
+
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          en: {
+            translations: {
+              button: {
+                buttonText: "Search documents",
+                buttonAriaLabel: "Search documents",
+              },
+              modal: {
+                noResultsText: "No relevant results found",
+                resetButtonTitle: "Clear query conditions",
+                footer: {
+                  selectText: "choose",
+                  navigateText: "switch",
+                },
+              },
+            },
+          },
+        },        
+      },
+    }
   },
 })
