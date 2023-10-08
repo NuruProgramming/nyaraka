@@ -12,7 +12,7 @@ Identifiers are used to name variables, functions, and other elements in your Nu
 Identifiers can contain letters, numbers, and underscores. However, there are a few rules you must follow when creating identifiers:
 
 - Identifiers cannot start with a number.
-- Identifiers are case-sensitive. For example, myVar and myvar are considered distinct identifiers.
+- Identifiers are case-sensitive. For example, `myVar` and `myvar` are considered distinct identifiers.
 
 Here are some examples of valid identifiers:
 
