@@ -9,7 +9,6 @@ export default defineConfig({
   title: 'Nuru',
   description:
     'Lugha ya kiprogramu ya Kiswahili. Rahisi Kujifunza, Rahisi Kutumia.',
-  
 
   srcDir: 'src',
 
@@ -32,7 +31,13 @@ export default defineConfig({
 
         sidebar: englishSidebar,
         outline: {
-          label: 'On this page',
+          label: 'On this page'
+        },
+        notFound: {
+          title: 'PAGE NOT FOUND',
+          quote: 'Maybe we have moved the page or you have used an incorrect link',
+          linkLabel: 'Go Home',
+          linkText: 'Take Me Home',
         },
       },
     },
@@ -51,7 +56,6 @@ export default defineConfig({
     outline: {
       label: 'Katika ukurasa huu',
     },
-    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nuruprogramming' },
@@ -116,6 +120,13 @@ export default defineConfig({
           },
         },
       },
+    },
+
+    notFound: {
+      title: 'UKURASA HAUJAPATIKANA',
+      quote: 'Inaweza ikawa ukurasa tumeuhamisha au umekosea',
+      linkLabel: 'Rudi Nyumbani',
+      linkText: 'Nipeleke Nyumbani',
     },
 
     footer: {
