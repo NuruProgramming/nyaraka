@@ -2,12 +2,14 @@ import { defineConfig } from 'vitepress'
 import kiswahiliSidebar from './helpers/kiswahili-sidebar'
 import englishSidebar from './helpers/english-sidebar'
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // app level config options
   title: 'Nuru',
   description:
     'Lugha ya kiprogramu ya Kiswahili. Rahisi Kujifunza, Rahisi Kutumia.',
+  
 
   srcDir: 'src',
 
@@ -39,6 +41,7 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
     nav: [
       { text: 'Nyumbani', link: '/' },
       { text: 'Nyaraka', link: '/maneno-tengwa' },
@@ -48,6 +51,7 @@ export default defineConfig({
     outline: {
       label: 'Katika ukurasa huu',
     },
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nuruprogramming' },
@@ -64,24 +68,59 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          en: {
+          root: {
             translations: {
               button: {
-                buttonText: "Search documents",
-                buttonAriaLabel: "Search documents",
+                buttonText: 'Tafuta',
+                buttonAriaLabel: 'Tafuta',
               },
               modal: {
-                noResultsText: "No relevant results found",
-                resetButtonTitle: "Clear query conditions",
+                noResultsText: 'Hamna Matokeo yaliyopatikana',
+                resetButtonTitle: 'Ondoa Ulichotafuta',
+                displayDetails: 'Onyesha Maelezo Zaidi',
+                backButtonTitle: 'Rudi Nyuma',
                 footer: {
-                  selectText: "choose",
-                  navigateText: "switch",
+                  selectText: 'Chagua',
+                  navigateText: 'Badili',
+                  closeText: 'Funga',
+                  selectKeyAriaLabel: 'Chagua',
+                  navigateUpKeyAriaLabel: 'Panda Juu',
+                  navigateDownKeyAriaLabel: 'Shuka Chini',
+                  closeKeyAriaLabel: 'Funga',
                 },
               },
             },
           },
-        },        
+          en: {
+            translations: {
+              button: {
+                buttonText: 'Search documents',
+                buttonAriaLabel: 'Search documents',
+              },
+              modal: {
+                noResultsText: 'No relevant results found',
+                resetButtonTitle: 'Clear query conditions',
+                displayDetails: 'Show Detailed Results',
+                backButtonTitle: 'Go Back',
+                footer: {
+                  selectText: 'Choose',
+                  navigateText: 'Switch',
+                  closeText: 'Close',
+                  selectKeyAriaLabel: 'Choose',
+                  navigateUpKeyAriaLabel: 'Go Up',
+                  navigateDownKeyAriaLabel: 'Go Down',
+                  closeKeyAriaLabel: 'Close',
+                },
+              },
+            },
+          },
+        },
       },
-    }
+    },
+
+    footer: {
+      message: 'All code is open source if you can read Assembly',
+      copyright: 'Copyleft 🄯 Avecinna',
+    },
   },
 })
