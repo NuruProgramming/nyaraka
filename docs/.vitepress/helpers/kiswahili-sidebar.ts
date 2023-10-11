@@ -4,6 +4,15 @@ import { Sidebar } from './types'
 
 const kiswahiliSidebar: Sidebar = [
   {
+    text: 'Ufungaji',
+    items: [
+      { text: 'Windows', link: '/ufungaji-windows' },
+      { text: 'Android', link: '/ufungaji-android' },
+      { text: 'Linux', link: '/ufungaji-linux' },
+      { text: 'MacOS', link: '/ufungaji-macos' },
+    ],
+  },
+  {
     text: 'Misingi',
     items: [
       { text: 'Maneno Tengwa', link: '/maneno-tengwa' },
