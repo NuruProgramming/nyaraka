@@ -2,6 +2,15 @@ import { Sidebar } from './types'
 
 const englishSidebar: Sidebar = [
   {
+    text: 'Installation',
+    items: [
+      { text: 'Windows', link: '/en/ufungaji-windows' },
+      { text: 'Android', link: '/en/ufungaji-android' },
+      { text: 'Linux', link: '/en/ufungaji-linux' },
+      { text: 'MacOS', link: '/en/ufungaji-macos' },
+    ],
+  },
+  {
     text: 'Fundamentals',
     items: [
       { text: 'Keywords', link: '/en/maneno-tengwa' },
