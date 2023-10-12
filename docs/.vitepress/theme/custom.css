@@ -1,6 +1,10 @@
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-c-brand-1: #FF9A00;
-  --vp-c-brand-2: #FFCE00;
-  --vp-button-brand-bg: #FF9A00;
+  --vp-c-brand-1: #ff9a00;
+  --vp-c-brand-2: #ffce00;
+  --vp-button-brand-bg: #ff9a00;
+}
+
+.language-go.vp-adaptive-theme > .lang {
+  display: none;
 }
