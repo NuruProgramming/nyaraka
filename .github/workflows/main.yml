@@ -40,7 +40,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: production-files
-          path: ./dist/.vitepress/dist
+          path: ./docs/.vitepress/dist
 
       - name: Deploy to server
         uses: appleboy/scp-action@master
@@ -49,5 +49,5 @@ jobs:
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           source: ./dist/.vitepress/dist
+           source: ./docs/.vitepress/dist
            target: "/home/${{ secrets.USERNAME }}/temporary-directory"
