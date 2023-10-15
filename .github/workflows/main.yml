@@ -29,13 +29,6 @@ jobs:
           name: production-files
           path: ./docs/.vitepress/dist
 
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
@@ -50,4 +43,4 @@ jobs:
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
            source: ./dist./vitpress/dist
-           target: "/home/${{ secrets.USERNAME }}/temporary-directory"
+           target: "/home/${{ secrets.USERNAME }}/temporary-directory"      
