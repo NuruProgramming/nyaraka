@@ -54,8 +54,8 @@ const englishSidebar: Sidebar = [
   {
     text: 'Examples',
     items: [
-      { text: 'User Input', link: '/ingizo-la-mtumiaji' },
-      { text: 'Fibonacci', link: '/fibonacci' },
+      { text: 'User Input', link: '/en/ingizo-la-mtumiaji' },
+      { text: 'Fibonacci', link: '/en/fibonacci' },
       { text: 'Sorting Algorithm', link: '/en/kanuni-za-upangaji' },
       { text: 'Sudoku Solver', link: '/en/suluhisho-sudoku' },
     ],
