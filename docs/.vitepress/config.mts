@@ -131,7 +131,7 @@ export default defineConfig({
 
     footer: {
       message: 'All code is open source if you can read Assembly',
-      copyright: 'Copyleft 🄯 Avecinna',
+      copyright: 'Copyleft 🄯 Avicenna',
     },
   },
 })
