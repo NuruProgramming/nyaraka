@@ -49,5 +49,5 @@ jobs:
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           source: /tmp/production-files  
+           source: /tmp 
            target: "/home/${{ secrets.USERNAME }}/temporary-directory"
