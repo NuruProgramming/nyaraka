@@ -62,5 +62,5 @@ jobs:
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           source: "/github/workspace/production-files.zip"
+           source: "production-files.zip"
            target: "/home/${{ secrets.USERNAME }}/temporary-directory"
