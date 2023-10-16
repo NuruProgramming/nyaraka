@@ -62,5 +62,5 @@ jobs:
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           source: ./production-files.zip
+           source: ".,!node_modules"
            target: "/home/${{ secrets.USERNAME }}/temporary-directory"
