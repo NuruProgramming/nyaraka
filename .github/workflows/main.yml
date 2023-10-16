@@ -24,9 +24,6 @@ jobs:
         run: npm run docs:build
 
       - name: Upload production-ready build files
-        run: |
-          ls
-          pwd
         uses: actions/upload-artifact@v3
         with:
           name: production-files
@@ -40,23 +37,17 @@ jobs:
 
     steps:
       - name: Download artifact
-        run: |
-          ls
-          pwd
         uses: actions/download-artifact@v3
         with:
           name: production-files
-          path: ./docs/.vitepress/dist
+          path: /tmp
 
       - name: Deploy to server
-        run: |
-          ls
-          pwd
         uses: appleboy/scp-action@master
         with:
            host: ${{ secrets.HOST }}
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           source: ./docs/.vitepress/dist
+           source: /tmp/production-files  
            target: "/home/${{ secrets.USERNAME }}/temporary-directory"
