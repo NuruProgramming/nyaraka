@@ -62,5 +62,5 @@ jobs:
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           source: "/home/runner/work/nyaraka/nyaraka/production-files.zip"
+           source: "/github/workspace/production-files.zip"
            target: "/home/${{ secrets.USERNAME }}/temporary-directory"
