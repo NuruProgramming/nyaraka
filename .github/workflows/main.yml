@@ -66,8 +66,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd ${{ secrets.TEMP_DIR }}
-            unzip production-files.zip
-            rm production-files.zip
+            unzip distfiles/production-files.zip
+            rm -rf distfiles
             rm -rf ${{ secrets.DEPLOY_DIR }}/*
-            mv distfiles/* ${{ secrets.DEPLOY_DIR }}
-            rm -rf ${{ secrets.TEMP_DIR }}
+            mv * ${{ secrets.DEPLOY_DIR }}
