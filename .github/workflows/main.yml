@@ -25,7 +25,6 @@ jobs:
       
       - name: Archive production files
         run: |
-          cd ./docs/.vitepress/dist
           zip -r production-files.zip .
         working-directory: ./docs/.vitepress/dist
 
