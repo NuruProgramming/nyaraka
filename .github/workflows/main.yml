@@ -49,7 +49,7 @@ jobs:
           path: ./docs/.vitepress/dist
 
       - name: Deploy to server
-        run:
+        run: |
           ls
           pwd
         uses: appleboy/scp-action@master
