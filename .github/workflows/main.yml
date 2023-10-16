@@ -41,6 +41,12 @@ jobs:
         with:
           name: production-files
           path: /tmp
+      
+      - name: Understanding where I am
+        run: |
+          pwd
+          ls -la
+          ls -la /tmp
 
       - name: Deploy to server
         uses: appleboy/scp-action@master
