@@ -22,12 +22,18 @@ jobs:
 
       - name: Build project
         run: npm run docs:build
+      
+      - name: Archive production files
+        run: |
+          cd ./docs/.vitepress/dist
+          zip -r production-files.zip .
+        working-directory: ./docs/.vitepress/dist
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./docs/.vitepress/dist
+          path: ./docs/.vitepress/dist/production-files.zip
 
   deploy:
     name: Deploy
@@ -45,7 +51,9 @@ jobs:
       - name: Understanding where I am
         run: |
           pwd
+          echo "Working directory:"
           ls -la
+          echo "Temporary directory:"
           ls -la /tmp
 
       - name: Deploy to server
