@@ -46,16 +46,8 @@ jobs:
         with:
           name: production-files
           path: distfiles
-      
-      - name: Understanding where I am
-        run: |
-          pwd
-          echo "Working directory:"
-          ls -la
-          echo "Temporary directory:"
-          ls -la /tmp
 
-      - name: Deploy to server
+      - name: Copy to server
         uses: appleboy/scp-action@v0.1.4
         with:
            host: ${{ secrets.HOST }}
@@ -63,4 +55,19 @@ jobs:
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
            source: distfiles/*
-           target: "/home/${{ secrets.USERNAME }}/temporary-directory"
+           target: "${{ secrets.TEMP_DIR }}"
+      
+      - name: Going Live
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd ${{ secrets.TEMP_DIR }}
+            unzip production-files.zip
+            rm production-files.zip
+            rm -rf ${{ secrets.DEPLOY_DIR }}/*
+            mv distfiles/* ${{ secrets.DEPLOY_DIR }}
+            rm -rf ${{ secrets.TEMP_DIR }}
