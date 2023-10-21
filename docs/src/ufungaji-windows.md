@@ -9,8 +9,8 @@ Una uwezo wa kufunga nuru kwenye kompyuta yako ya Windows kwa kutumia Kisakinish
 
 ## Kisakinishi cha Nuru
 
-- Pakua Kisakinishi cha Nuru [Hapa](https://github.com/AvicennaJr/Nuru/releases/download/v0.2.0/Nuru_Windows_Installer_v0.2.0.exe)
-
+- Pakua Kisakinishi cha Nuru [Hapa](https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Windows_amd64.zip)
+- Fungua zip iliyopakuliwa
 - Sakinisha kisakinishi ulichopakua (Bofya mara mbili kwenye kisakinishi)
 
 Unaweza kuangalia mwongozo kamili wa jinsi ya kufunga nuru kwenye Windows [Hapa](https://youtu.be/T-lfaoqIFD4)
