@@ -35,3 +35,21 @@ Ikishamaliza kusanikisha, tumia maelekezo yafuatayo kuanzisha hazina hii iliuwez
 ```bash
 npm run docs:dev
 ```
+
+## Kuchangia
+
+Ili kuchangia katika hizi nyaraka, tengeneza tengeneza tawi (fork) katika akaunti yako na fuata maelekezo ya kupakua hapo juu.
+
+Ongeza mabadiliko yako, thibitisha (commit) na itume (push) kwenye [GitHub](https://github.com).
+
+```bash
+git add -am "Tafsiri Nyaraka kwa kibena"
+```
+
+```bash
+git push -u origin <TAWI LAKO>
+```
+
+Fungua Ombi la Kukubaliwa (Pull Request) kwenda kwenye nyaraka rasmi za [Nuru](https://github.com/NuruProgramming/nyaraka)
+
+Unaweza pia kuchangia kwa kuongeza, kuboresha au kusahihisha matatizo katika sehemu ya matatizo [(issues)](https://github.com/NuruProgramming/nyaraka/issues).
