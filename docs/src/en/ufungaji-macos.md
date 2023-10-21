@@ -16,14 +16,38 @@ You can install nuru on your Mac OS computer in three ways:
 - Download the Nuru binary
 
 ```
-curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.0-alpha/nuru_mac_arm64_v0.5.0-alpha.tar.gz
+curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Darwin_arm64.tar.gz
 
 ```
 
 - Extract the binary to make global available
 
 ```
-sudo tar -C /usr/local/bin -xzvf nuru_mac_arm64_v0.5.0-alpha.tar.gz
+sudo tar -C /usr/local/bin -xzvf nuru_Darwin_arm64.tar.gz
+
+
+```
+
+- Confirm installation with
+
+```
+nuru -v
+
+```
+
+## Binary ( Apple Intel Mac )
+
+- Download the Nuru binary
+
+```
+curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Darwin_amd64.tar.gz
+
+```
+
+- Extract the binary to make global available
+
+```
+sudo tar -C /usr/local/bin -xzvf nuru_Darwin_amd64.tar.gz
 
 
 ```

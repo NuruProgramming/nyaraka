@@ -16,13 +16,13 @@ Una uwezo wa kufunga nuru kwenye simu yako ya Android kwa kutumia Termux. Unawez
 ### Pakua kisakinishi na amri hii:
 
 ```
-curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.2.0/nuru_android_arm64_v0.2.0.tar.gz
+curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Android_arm64.tar.gz
 ```
 
 ### Fungua kisakinishi na amri hii:
 
 ```
-tar -xzvf nuru_android_arm64_v0.2.0.tar.gz
+tar -xzvf nuru_Android_arm64.tar.gz
 ```
 
 ### Ongeza nuru kwenye njia:
