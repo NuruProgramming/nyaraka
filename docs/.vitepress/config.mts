@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 import kiswahiliSidebar from './helpers/kiswahili-sidebar'
 import englishSidebar from './helpers/english-sidebar'
 
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // app level config options
@@ -31,11 +30,12 @@ export default defineConfig({
 
         sidebar: englishSidebar,
         outline: {
-          label: 'On this page'
+          label: 'On this page',
         },
         notFound: {
           title: 'PAGE NOT FOUND',
-          quote: 'Maybe we have moved the page or you have used an incorrect link',
+          quote:
+            'Maybe we have moved the page or you have used an incorrect link',
           linkLabel: 'Go Home',
           linkText: 'Take Me Home',
         },
@@ -133,5 +133,12 @@ export default defineConfig({
       message: 'All code is open source if you can read Assembly',
       copyright: 'Copyleft 🄯 Avicenna',
     },
+  },
+
+  lastUpdated: true,
+
+  sitemap: {
+    hostname: 'https://nuruprogramming.org/',
+    lastmodDateOnly: true,
   },
 })
