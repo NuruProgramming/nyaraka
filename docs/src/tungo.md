@@ -51,7 +51,7 @@ a *= 4
 
 ## Kuzunguka ndani ya tungo
 
-Unaweza kuzunguka ndania ya tungo kwa kutumia neno-msingi la `kwa`:
+Unaweza kuzunguka ndani ya tungo kwa kutumia neno-msingi la `kwa`:
 
 ```go
 fanya jina = "avicenna"
