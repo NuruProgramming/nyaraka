@@ -66,7 +66,7 @@ andika(sikweli || sikweli) // Tokeo: `sikweli`
 
 ### Kitendakazi `!`
 
-Kitendakazi `!` hukanisha thamani ya kitu. Kwa mfano:
+Kitendakazi `!` hukanusha thamani ya kitu. Kwa mfano:
 
 ```go
 andika(!kweli) // Tokeo: `sikweli`
