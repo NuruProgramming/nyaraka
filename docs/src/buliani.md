@@ -97,6 +97,6 @@ kwa thamani ktk namba {
 // 5 ni namba witiri
 ```
 
-Hapa , tumetengeneza safu yenye namba 1 hadi 5 kisha tukazinguka ndani ya safu hiyo na kwa kila namba tukatumia kitendakazi `%` ilikubaini kama namba ni shufwa au witiri. Matokeo yatakua ni "ni namba shufwa" kwa namba shufwa na "ni namba witiri" kwa namba witiri.
+Hapa , tumetengeneza safu yenye namba 1 hadi 5 kisha tukazunguka ndani ya safu hiyo na kwa kila namba tukatumia kitendakazi `%` ilikubaini kama namba ni shufwa au witiri. Matokeo yatakua ni "ni namba shufwa" kwa namba shufwa na "ni namba witiri" kwa namba witiri.
 
 Vitu buliani katika Nuru vinaweza kutumika kutathmini semi ambazo zinarudisha thamani ya kweli au sikweli. Unaweza kutumia vitendakazi vya buliani kutathmini semi tata na kuendesha tabia ya vitanzi. Kuelewa namna ya kufanya kazi na thamani za buliani ni ujuzi wamsingi kwa mtengenezaji programu yeyote wa Nuru.
