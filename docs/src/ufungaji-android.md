@@ -55,4 +55,4 @@ nuru
 
 Utapata mazingira ya nuru kwenye simu yako ya Android.
 
-![Muonekano Baada ya kusanikisha](./public/nuru-android.png)
+![Muonekano Baada ya kusanikisha](./nuru-android.png)
