@@ -43,6 +43,8 @@ source ~/.bashrc
 nuru -v
 ```
 
+Hapa utaona toleo la nuru kwenye simu yako ya Android.
+
 ## Matumizi
 
 Unaweza kutumia nuru kwa kufuata amri zifuatazo:

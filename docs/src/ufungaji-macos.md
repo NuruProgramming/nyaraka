@@ -15,20 +15,20 @@ Una uwezo wa kufunga Nuru kwenye kompyuta yako ya Mac OS kwa njia tatu:
 
 - Pakua binary ya Nuru
 
-```
+```bash
 curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Darwin_arm64.tar.gz
 ```
 
 - Fungua binary ili kuifanya iweze kutumika kwa kila sehemu
 
-```
+```bash
 sudo tar -C /usr/local/bin -xzvf nuru_Darwin_arm64.tar.gz
 
 ```
 
 - Thibitisha binary kwa:
 
-```
+```bash
 nuru -v
 
 ```
@@ -37,19 +37,19 @@ nuru -v
 
 - Pakua binary ya Nuru
 
-```
+```bash
 curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Darwin_amd64.tar.gz
 ```
 
 - Fungua binary ili kuifanya iweze kutumika kwa kila sehemu
 
-```
+```bash
 sudo tar -C /usr/local/bin -xzvf nuru_Darwin_amd64.tar.gz
 ```
 
 - Thibitisha binary kwa:
 
-```
+```bash
 nuru -v
 
 ```
@@ -60,7 +60,7 @@ Kwa sasa, nuru haipatikani kwenye brew. Walakini, unaweza kuisakinisha na tap ku
 
 Kwa sasa tap inapatikana tu kwa Macs za Apple silicon.
 
-```
+```bash
 brew tap fredygerman/nuru-tap
 ```
 
