@@ -11,6 +11,10 @@ export default defineConfig({
 
   srcDir: 'src',
 
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
+
   locales: {
     root: {
       label: 'Kiswahili',
