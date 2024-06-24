@@ -52,7 +52,3 @@ Unaweza kutumia nuru kwa kufuata amri zifuatazo:
 ```bash
 nuru
 ```
-
-Utapata mazingira ya nuru kwenye simu yako ya Android.
-
-![Muonekano Baada ya kusanikisha](./nuru-android.png)

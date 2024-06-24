@@ -10,11 +10,7 @@ export default defineConfig({
     'Lugha ya kiprogramu ya Kiswahili. Rahisi Kujifunza, Rahisi Kutumia.',
 
   srcDir: 'src',
-
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-  ],
-
+  
   locales: {
     root: {
       label: 'Kiswahili',
