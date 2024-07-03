@@ -10,7 +10,7 @@ export default defineConfig({
     'Lugha ya kiprogramu ya Kiswahili. Rahisi Kujifunza, Rahisi Kutumia.',
 
   srcDir: 'src',
-
+  
   locales: {
     root: {
       label: 'Kiswahili',
