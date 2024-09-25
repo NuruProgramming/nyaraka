@@ -10,7 +10,7 @@ def get_contributors(repo):
 def generate_contributor_html(contributor):
     return f'<a href="{contributor["html_url"]}" target="_blank" rel="noopener noreferrer"><img src="{contributor["avatar_url"]}" alt="{contributor["login"]}" title="{contributor["login"]}"></a>'
 
-repos = ["nuruprogramming/nuru", "nuruprogramming/nyaraka"]
+repos = ["nuruprogramming/nuru", "nuruprogramming/nyaraka", "nuruprogramming/nurucon2024"]
 contributors = []
 
 for repo in repos:
