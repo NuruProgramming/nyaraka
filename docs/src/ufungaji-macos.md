@@ -16,7 +16,7 @@ Una uwezo wa kufunga Nuru kwenye kompyuta yako ya Mac OS kwa njia tatu:
 - Pakua binary ya Nuru
 
 ```bash
-curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Darwin_arm64.tar.gz
+curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.17/nuru_Darwin_arm64.tar.gz
 ```
 
 - Fungua binary ili kuifanya iweze kutumika kwa kila sehemu
@@ -38,7 +38,7 @@ nuru -v
 - Pakua binary ya Nuru
 
 ```bash
-curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Darwin_amd64.tar.gz
+curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.17/nuru_Darwin_amd64.tar.gz
 ```
 
 - Fungua binary ili kuifanya iweze kutumika kwa kila sehemu
