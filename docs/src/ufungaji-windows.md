@@ -9,7 +9,7 @@ Una uwezo wa kufunga nuru kwenye kompyuta yako ya Windows kwa kutumia Kisakinish
 
 ## Kisakinishi cha Nuru
 
-- Pakua Kisakinishi cha Nuru [Hapa](https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Windows_amd64.zip)
+- Pakua Kisakinishi cha Nuru [Hapa](https://github.com/AvicennaJr/Nuru/releases/download/v0.5.17/nuru_Windows_amd64.zip)
 - Fungua zip iliyopakuliwa
 - Sakinisha kisakinishi ulichopakua (Bofya mara mbili kwenye kisakinishi)
 

@@ -16,7 +16,7 @@ Una uwezo wa kufunga nuru kwenye simu yako ya Android kwa kutumia Termux. Unawez
 ### Pakua kisakinishi na amri hii
 
 ```bash
-curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.15/nuru_Android_arm64.tar.gz
+curl -O -L https://github.com/AvicennaJr/Nuru/releases/download/v0.5.17/nuru_Android_arm64.tar.gz
 ```
 
 ### Fungua kisakinishi na amri hii
