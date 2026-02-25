@@ -1,1 +1,1 @@
-run: dist
+run: docs/.vitepress/dist
