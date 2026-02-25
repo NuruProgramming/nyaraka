@@ -1,1 +1,3 @@
+packages: python3, pip
+script: pip install --break-system-packages requests && python3 .github/scripts/update_contributors.py
 run: docs/.vitepress/dist
