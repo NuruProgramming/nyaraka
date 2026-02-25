@@ -138,7 +138,7 @@ export default defineConfig({
     },
   },
 
-  lastUpdated: true,
+  lastUpdated: false,
 
   sitemap: {
     hostname: 'https://nuruprogramming.org/',
